@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Download Apk File" time="11" tests="1" failures="0" errors="0">
+   <testsuite name="Download Apk File" tests="1" failures="0" errors="0" time="11" timestamp="2018-10-03 15:43:27" hostname="Owner - L13-IT-KISHORE.myeg.local" id="Test Suites/CSO/Download Apk File">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\Download Apk File\\20181003_154325"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\Download Apk File\\20181003_154325\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\Download Apk File\\20181003_154325\\1538552617205.png"/>
+         <property name="hostName" value="Owner - L13-IT-KISHORE.myeg.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.8.168"/>
+         <property name="sessionId" value="da0c0e36ab797a7c4666f2eed7b72c34"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logistics/Roles/CSO/Download Apk File" classname="Test Cases/Logistics/Roles/CSO/Download Apk File" status="PASSED">
+         <system-out><![CDATA[2018-10-03 15:43:27 - [TEST_CASE][PASSED] - Test Cases/Logistics/Roles/CSO/Download Apk File: Test Cases/Logistics/Roles/CSO/Download Apk File
+
+2018-10-03 15:43:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-03 15:43:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-03 15:43:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-03 15:43:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-03 15:43:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-03 15:43:34 - [MESSAGE][PASSED] - Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-03 15:43:34 - [TEST_STEP][PASSED] - setText: Text 'KISH2008	                                  ' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username (2)'
+
+2018-10-03 15:43:35 - [MESSAGE][PASSED] - Text 'KISH2008	                                  ' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username (2)'
+
+2018-10-03 15:43:35 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password (2)'
+
+2018-10-03 15:43:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password (2)'
+
+2018-10-03 15:43:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit (2)' is clicked on
+
+2018-10-03 15:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit (2)' is clicked on
+
+2018-10-03 15:43:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Download Apk File' is clicked on
+
+2018-10-03 15:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Download Apk File' is clicked on
+
+2018-10-03 15:43:37 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-03 15:43:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\Download Apk File\\20181003_154325\\1538552617205.png]]
+
+2018-10-03 15:43:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/a_mylogistics.apk' is clicked on
+
+2018-10-03 15:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/a_mylogistics.apk' is clicked on
+
+2018-10-03 15:43:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-03 15:43:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-03 15:43:27 - [TEST_SUITE][PASSED] - Download Apk File: Test Cases/Logistics/Roles/CSO/Download Apk File]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

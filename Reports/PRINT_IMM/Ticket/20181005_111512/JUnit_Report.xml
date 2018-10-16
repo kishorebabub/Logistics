@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ticket" time="44" tests="1" failures="0" errors="0">
+   <testsuite name="Ticket" tests="1" failures="0" errors="0" time="44" timestamp="2018-10-05 11:15:14" hostname="Owner - L13-IT-KISHORE.myeg.local" id="Test Suites/PRINT_IMM/Ticket">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709324507.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709326792.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709330574.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709332303.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709333779.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709335640.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709337340.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709339403.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709341283.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709342883.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709344539.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709346656.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709348623.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709350331.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709351999.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709353876.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709355847.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709357423.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709358017.png"/>
+         <property name="hostName" value="Owner - L13-IT-KISHORE.myeg.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.8.168"/>
+         <property name="sessionId" value="f761f17a5ac7540f2e62398b7302f654"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logistics/Roles/PRINT_IMM/Ticket" classname="Test Cases/Logistics/Roles/PRINT_IMM/Ticket" status="PASSED">
+         <system-out><![CDATA[2018-10-05 11:15:15 - [TEST_CASE][PASSED] - Test Cases/Logistics/Roles/PRINT_IMM/Ticket: Test Cases/Logistics/Roles/PRINT_IMM/Ticket
+
+2018-10-05 11:15:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-05 11:15:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-05 11:15:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-05 11:15:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-05 11:15:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-05 11:15:23 - [MESSAGE][PASSED] - Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-05 11:15:23 - [TEST_STEP][PASSED] - setText: Text 'AJAY1964' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-05 11:15:23 - [MESSAGE][PASSED] - Text 'AJAY1964' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-05 11:15:23 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-05 11:15:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-05 11:15:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-05 11:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-05 11:15:24 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709324507.png]]
+
+2018-10-05 11:15:24 - [TEST_STEP][PASSED] - setText: Text 'AJAY1965' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-05 11:15:25 - [MESSAGE][PASSED] - Text 'AJAY1965' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-05 11:15:25 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-05 11:15:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-05 11:15:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-05 11:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-05 11:15:26 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709326792.png]]
+
+2018-10-05 11:15:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Ticket' is clicked on
+
+2018-10-05 11:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Ticket' is clicked on
+
+2018-10-05 11:15:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_- Select status -     P'  using regular expression
+
+2018-10-05 11:15:28 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_- Select status -     P'  using regular expression
+
+2018-10-05 11:15:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:28 - [MESSAGE][PASSED] - All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_current date pending print T' is clicked on
+
+2018-10-05 11:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_current date pending print T' is clicked on
+
+2018-10-05 11:15:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:30 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709330574.png]]
+
+2018-10-05 11:15:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'JM' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:31 - [MESSAGE][PASSED] - All options with value 'JM' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:32 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709332303.png]]
+
+2018-10-05 11:15:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IM' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:33 - [MESSAGE][PASSED] - All options with value 'IM' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:33 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709333779.png]]
+
+2018-10-05 11:15:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'MD' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:34 - [MESSAGE][PASSED] - All options with value 'MD' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:35 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709335640.png]]
+
+2018-10-05 11:15:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FW' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:36 - [MESSAGE][PASSED] - All options with value 'FW' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:37 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709337340.png]]
+
+2018-10-05 11:15:37 - [TEST_STEP][PASSED] - setText: Text '03-Oct-2018' is set on object 'Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate'
+
+2018-10-05 11:15:38 - [MESSAGE][PASSED] - Text '03-Oct-2018' is set on object 'Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate'
+
+2018-10-05 11:15:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CL' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:38 - [MESSAGE][PASSED] - All options with value 'CL' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:39 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709339403.png]]
+
+2018-10-05 11:15:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1M' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:40 - [MESSAGE][PASSED] - All options with value '1M' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:41 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709341283.png]]
+
+2018-10-05 11:15:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'SP' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:42 - [MESSAGE][PASSED] - All options with value 'SP' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:42 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709342883.png]]
+
+2018-10-05 11:15:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PT' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:43 - [MESSAGE][PASSED] - All options with value 'PT' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:44 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709344539.png]]
+
+2018-10-05 11:15:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PTD' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:45 - [MESSAGE][PASSED] - All options with value 'PTD' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:46 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709346656.png]]
+
+2018-10-05 11:15:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LKS' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:47 - [MESSAGE][PASSED] - All options with value 'LKS' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:48 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709348623.png]]
+
+2018-10-05 11:15:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PTL' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:49 - [MESSAGE][PASSED] - All options with value 'PTL' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:50 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709350331.png]]
+
+2018-10-05 11:15:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'JPJ1M' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:51 - [MESSAGE][PASSED] - All options with value 'JPJ1M' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:51 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709351999.png]]
+
+2018-10-05 11:15:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IMI1M' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:52 - [MESSAGE][PASSED] - All options with value 'IMI1M' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:53 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709353876.png]]
+
+2018-10-05 11:15:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ET' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:54 - [MESSAGE][PASSED] - All options with value 'ET' are selected in object 'Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --'  using regular expression
+
+2018-10-05 11:15:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:55 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709355847.png]]
+
+2018-10-05 11:15:56 - [TEST_STEP][PASSED] - setText: Text '02-Oct-2018' is set on object 'Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate'
+
+2018-10-05 11:15:56 - [MESSAGE][PASSED] - Text '02-Oct-2018' is set on object 'Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate'
+
+2018-10-05 11:15:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/input' is clicked on
+
+2018-10-05 11:15:57 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709357423.png]]
+
+2018-10-05 11:15:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_reset' is clicked on
+
+2018-10-05 11:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_reset' is clicked on
+
+2018-10-05 11:15:58 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-05 11:15:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Ticket\\20181005_111512\\1538709358017.png]]
+
+2018-10-05 11:15:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Logout' is clicked on
+
+2018-10-05 11:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Logout' is clicked on
+
+2018-10-05 11:15:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-05 11:15:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-05 11:15:14 - [TEST_SUITE][PASSED] - Ticket: Test Cases/Logistics/Roles/PRINT_IMM/Ticket]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

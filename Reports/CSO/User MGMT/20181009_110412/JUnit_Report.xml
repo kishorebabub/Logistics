@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User MGMT" time="15" tests="1" failures="0" errors="0">
+   <testsuite name="User MGMT" tests="1" failures="0" errors="0" time="15" timestamp="2018-10-09 11:04:14" hostname="Owner - L13-IT-KISHORE.myeg.local" id="Test Suites/CSO/User MGMT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054262640.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054263949.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054264921.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054267238.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054267868.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054268636.png"/>
+         <property name="hostName" value="Owner - L13-IT-KISHORE.myeg.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.8.168"/>
+         <property name="sessionId" value="5f0a42be588d628d21c1ed13a661ecd0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logistics/Roles/CSO/User MGMT" classname="Test Cases/Logistics/Roles/CSO/User MGMT" status="PASSED">
+         <system-out><![CDATA[2018-10-09 11:04:15 - [TEST_CASE][PASSED] - Test Cases/Logistics/Roles/CSO/User MGMT: Test Cases/Logistics/Roles/CSO/User MGMT
+
+2018-10-09 11:04:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-09 11:04:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-09 11:04:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-09 11:04:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-09 11:04:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-09 11:04:22 - [MESSAGE][PASSED] - Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-09 11:04:22 - [TEST_STEP][PASSED] - setText: Text 'KISH2008' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-09 11:04:22 - [MESSAGE][PASSED] - Text 'KISH2008' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-09 11:04:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-09 11:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-09 11:04:22 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-09 11:04:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054262640.png]]
+
+2018-10-09 11:04:23 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-09 11:04:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-09 11:04:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-09 11:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-09 11:04:23 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-09 11:04:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054263949.png]]
+
+2018-10-09 11:04:24 - [TEST_STEP][PASSED] - setText: Text 'KISH2009' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-09 11:04:24 - [MESSAGE][PASSED] - Text 'KISH2009' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-09 11:04:24 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-09 11:04:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-09 11:04:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-09 11:04:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-09 11:04:24 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-09 11:04:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054264921.png]]
+
+2018-10-09 11:04:25 - [TEST_STEP][PASSED] - setText: Text 'KISH2008' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-09 11:04:25 - [MESSAGE][PASSED] - Text 'KISH2008' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-09 11:04:25 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-09 11:04:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-09 11:04:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-09 11:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-09 11:04:27 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-09 11:04:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054267238.png]]
+
+2018-10-09 11:04:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_User MGMT' is clicked on
+
+2018-10-09 11:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_User MGMT' is clicked on
+
+2018-10-09 11:04:27 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-09 11:04:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054267868.png]]
+
+2018-10-09 11:04:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/a_BACK' is clicked on
+
+2018-10-09 11:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_BACK' is clicked on
+
+2018-10-09 11:04:28 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-09 11:04:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO\\User MGMT\\20181009_110412\\1539054268636.png]]
+
+2018-10-09 11:04:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Logout' is clicked on
+
+2018-10-09 11:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-09 11:04:14 - [TEST_SUITE][PASSED] - User MGMT: Test Cases/Logistics/Roles/CSO/User MGMT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

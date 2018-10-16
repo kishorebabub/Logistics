@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+User MGMT,Firefox 60.0,,2018-10-09 15:12:29,2018-10-09 15:12:45,15.986s,PASSED
+,,,,,,
+Test Cases/Logistics/Roles/CSOADMIN_PrintIMM/User MGMT,Firefox 60.0,,2018-10-09 15:12:29,2018-10-09 15:12:44,15.209s,PASSED
+openBrowser,Firefox 60.0,,2018-10-09 15:12:29,2018-10-09 15:12:34,4.688s,PASSED
+maximizeWindow,Firefox 60.0,,2018-10-09 15:12:34,2018-10-09 15:12:38,3.573s,PASSED
+navigateToUrl,Firefox 60.0,,2018-10-09 15:12:38,2018-10-09 15:12:39,1.589s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:12:39,2018-10-09 15:12:39,0.142s,PASSED
+click,Firefox 60.0,,2018-10-09 15:12:39,2018-10-09 15:12:40,0.509s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:12:40,2018-10-09 15:12:40,0.236s,PASSED
+setEncryptedText,Firefox 60.0,,2018-10-09 15:12:40,2018-10-09 15:12:40,0.198s,PASSED
+click,Firefox 60.0,,2018-10-09 15:12:40,2018-10-09 15:12:41,0.506s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:12:41,2018-10-09 15:12:41,0.150s,PASSED
+setText,Firefox 60.0,Invalid Username&Password,2018-10-09 15:12:41,2018-10-09 15:12:41,0.072s,PASSED
+setEncryptedText,Firefox 60.0,,2018-10-09 15:12:41,2018-10-09 15:12:41,0.051s,PASSED
+click,Firefox 60.0,It should display an error message,2018-10-09 15:12:41,2018-10-09 15:12:42,0.382s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:12:42,2018-10-09 15:12:42,0.156s,PASSED
+setText,Firefox 60.0,valid Username&Password,2018-10-09 15:12:42,2018-10-09 15:12:42,0.062s,PASSED
+setEncryptedText,Firefox 60.0,,2018-10-09 15:12:42,2018-10-09 15:12:42,0.050s,PASSED
+click,Firefox 60.0,It should display Login Page,2018-10-09 15:12:42,2018-10-09 15:12:43,1.143s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:12:43,2018-10-09 15:12:43,0.165s,PASSED
+click,Firefox 60.0,Click on User MGMT,2018-10-09 15:12:43,2018-10-09 15:12:43,0.152s,PASSED
+takeScreenshot,Firefox 60.0,Should display an error message 'Invalid Access',2018-10-09 15:12:43,2018-10-09 15:12:43,0.096s,PASSED
+click,Firefox 60.0,,2018-10-09 15:12:43,2018-10-09 15:12:43,0.052s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:12:43,2018-10-09 15:12:44,0.179s,PASSED
+click,Firefox 60.0,,2018-10-09 15:12:44,2018-10-09 15:12:44,0.689s,PASSED

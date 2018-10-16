@@ -1,0 +1,108 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Immigration Report,Firefox 60.0,,2018-10-09 15:01:46,2018-10-09 15:02:17,30.426s,PASSED
+,,,,,,
+Test Cases/Logistics/Roles/CSO_ADMIN/Immigration Report,Firefox 60.0,,2018-10-09 15:01:47,2018-10-09 15:02:17,29.985s,PASSED
+openBrowser,Firefox 60.0,,2018-10-09 15:01:47,2018-10-09 15:01:52,4.618s,PASSED
+maximizeWindow,Firefox 60.0,,2018-10-09 15:01:52,2018-10-09 15:01:55,3.550s,PASSED
+navigateToUrl,Firefox 60.0,,2018-10-09 15:01:55,2018-10-09 15:01:56,0.821s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:01:56,2018-10-09 15:01:56,0.144s,PASSED
+click,Firefox 60.0,,2018-10-09 15:01:56,2018-10-09 15:01:57,0.650s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:01:57,2018-10-09 15:01:57,0.241s,PASSED
+setEncryptedText,Firefox 60.0,,2018-10-09 15:01:57,2018-10-09 15:01:57,0.166s,PASSED
+click,Firefox 60.0,,2018-10-09 15:01:57,2018-10-09 15:01:58,0.415s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:01:58,2018-10-09 15:01:58,0.149s,PASSED
+setText,Firefox 60.0,"Invalid Username&Password
+",2018-10-09 15:01:58,2018-10-09 15:01:58,0.068s,PASSED
+setEncryptedText,Firefox 60.0,,2018-10-09 15:01:58,2018-10-09 15:01:58,0.055s,PASSED
+click,Firefox 60.0,It should display an error message,2018-10-09 15:01:58,2018-10-09 15:01:59,0.482s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:01:59,2018-10-09 15:01:59,0.153s,PASSED
+setText,Firefox 60.0,"valid Username&Password
+",2018-10-09 15:01:59,2018-10-09 15:01:59,0.073s,PASSED
+setEncryptedText,Firefox 60.0,,2018-10-09 15:01:59,2018-10-09 15:01:59,0.052s,PASSED
+click,Firefox 60.0,It should display login page,2018-10-09 15:01:59,2018-10-09 15:02:00,0.927s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:00,2018-10-09 15:02:00,0.172s,PASSED
+click,Firefox 60.0,Click on Immigration Report,2018-10-09 15:02:00,2018-10-09 15:02:00,0.398s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:00,2018-10-09 15:02:01,0.141s,PASSED
+click,Firefox 60.0,Click on Immigration Printing Assign Report  ,2018-10-09 15:02:01,2018-10-09 15:02:01,0.402s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:01,2018-10-09 15:02:01,0.151s,PASSED
+click,Firefox 60.0,"Click on 'reset' option
+
+",2018-10-09 15:02:01,2018-10-09 15:02:01,0.238s,PASSED
+takeScreenshot,Firefox 60.0,All the filled-in data should get erased when clicked on the reset link,2018-10-09 15:02:01,2018-10-09 15:02:02,0.145s,PASSED
+click,Firefox 60.0,without giving any inputs,2018-10-09 15:02:02,2018-10-09 15:02:02,0.248s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:02,2018-10-09 15:02:02,0.180s,PASSED
+setText,Firefox 60.0,Enter only 'Postcodes' ,2018-10-09 15:02:02,2018-10-09 15:02:02,0.071s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:02,2018-10-09 15:02:02,0.073s,PASSED
+click,Firefox 60.0,Should display an error message,2018-10-09 15:02:02,2018-10-09 15:02:02,0.247s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:02,2018-10-09 15:02:02,0.133s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:02,2018-10-09 15:02:03,0.062s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:03,2018-10-09 15:02:03,0.087s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:03,2018-10-09 15:02:03,0.624s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:03,2018-10-09 15:02:03,0.166s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:03,2018-10-09 15:02:03,0.067s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:03,2018-10-09 15:02:04,0.399s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:04,2018-10-09 15:02:04,0.144s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:04,2018-10-09 15:02:04,0.107s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:04,2018-10-09 15:02:04,0.101s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:04,2018-10-09 15:02:05,0.416s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:05,2018-10-09 15:02:05,0.152s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:05,2018-10-09 15:02:05,0.068s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:05,2018-10-09 15:02:05,0.068s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:05,2018-10-09 15:02:05,0.519s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:05,2018-10-09 15:02:06,0.177s,PASSED
+click,Firefox 60.0,Click on Immigration Report,2018-10-09 15:02:06,2018-10-09 15:02:06,0.352s,PASSED
+click,Firefox 60.0,Click on Immigration Delivery performance Report_FW  ,2018-10-09 15:02:06,2018-10-09 15:02:06,0.454s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:06,2018-10-09 15:02:07,0.192s,PASSED
+click,Firefox 60.0,"Click on 'reset' option
+",2018-10-09 15:02:07,2018-10-09 15:02:07,0.237s,PASSED
+takeScreenshot,Firefox 60.0,All the filled-in data should get erased when clicked on the reset link,2018-10-09 15:02:07,2018-10-09 15:02:07,0.165s,PASSED
+click,Firefox 60.0,without giving any inputs,2018-10-09 15:02:07,2018-10-09 15:02:07,0.236s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:07,2018-10-09 15:02:07,0.187s,PASSED
+setText,Firefox 60.0,Enter only 'Postcodes' ,2018-10-09 15:02:07,2018-10-09 15:02:08,0.059s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:08,2018-10-09 15:02:08,0.062s,PASSED
+click,Firefox 60.0,Should display an error message,2018-10-09 15:02:08,2018-10-09 15:02:08,0.271s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:08,2018-10-09 15:02:08,0.150s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:08,2018-10-09 15:02:08,0.065s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:08,2018-10-09 15:02:08,0.108s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:08,2018-10-09 15:02:08,0.078s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:08,2018-10-09 15:02:09,0.462s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:09,2018-10-09 15:02:09,0.152s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:09,2018-10-09 15:02:09,0.068s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:09,2018-10-09 15:02:09,0.408s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:09,2018-10-09 15:02:10,0.171s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:10,2018-10-09 15:02:10,0.073s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:10,2018-10-09 15:02:10,0.081s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:10,2018-10-09 15:02:10,0.453s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:10,2018-10-09 15:02:10,0.149s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:10,2018-10-09 15:02:10,0.085s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:10,2018-10-09 15:02:10,0.074s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:10,2018-10-09 15:02:11,0.491s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:11,2018-10-09 15:02:11,0.165s,PASSED
+click,Firefox 60.0,Click on Immigration Report,2018-10-09 15:02:11,2018-10-09 15:02:11,0.301s,PASSED
+click,Firefox 60.0,Click on Immigration Delivery performance Report_MD       ,2018-10-09 15:02:11,2018-10-09 15:02:12,0.439s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:12,2018-10-09 15:02:12,0.149s,PASSED
+click,Firefox 60.0,Click on 'reset' option,2018-10-09 15:02:12,2018-10-09 15:02:12,0.233s,PASSED
+takeScreenshot,Firefox 60.0,All the filled-in data should get erased when clicked on the reset link,2018-10-09 15:02:12,2018-10-09 15:02:12,0.149s,PASSED
+click,Firefox 60.0,without giving any inputs,2018-10-09 15:02:12,2018-10-09 15:02:13,0.227s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:13,2018-10-09 15:02:13,0.199s,PASSED
+setText,Firefox 60.0,Enter only 'Postcodes' ,2018-10-09 15:02:13,2018-10-09 15:02:13,0.080s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:13,2018-10-09 15:02:13,0.112s,PASSED
+click,Firefox 60.0,Should display an error message,2018-10-09 15:02:13,2018-10-09 15:02:13,0.252s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:13,2018-10-09 15:02:13,0.150s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:13,2018-10-09 15:02:13,0.057s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:13,2018-10-09 15:02:14,0.089s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:14,2018-10-09 15:02:14,0.078s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:14,2018-10-09 15:02:14,0.525s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:14,2018-10-09 15:02:14,0.162s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:14,2018-10-09 15:02:14,0.054s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:14,2018-10-09 15:02:15,0.517s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:15,2018-10-09 15:02:15,0.172s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:15,2018-10-09 15:02:15,0.060s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:15,2018-10-09 15:02:15,0.077s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:15,2018-10-09 15:02:16,0.431s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:16,2018-10-09 15:02:16,0.168s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:16,2018-10-09 15:02:16,0.079s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:02:16,2018-10-09 15:02:16,0.079s,PASSED
+click,Firefox 60.0,,2018-10-09 15:02:16,2018-10-09 15:02:16,0.426s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:02:16,2018-10-09 15:02:17,0.159s,PASSED
+closeBrowser,Firefox 60.0,,2018-10-09 15:02:17,2018-10-09 15:02:17,0.269s,PASSED

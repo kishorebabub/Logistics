@@ -1,0 +1,134 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Delivery Report,Firefox 60.0,,2018-10-09 14:59:35,2018-10-09 15:01:09,1m - 33.541s,PASSED
+,,,,,,
+Test Cases/Logistics/Roles/CSO_ADMIN/Delivery Report,Firefox 60.0,,2018-10-09 14:59:35,2018-10-09 15:01:09,1m - 33.100s,PASSED
+openBrowser,Firefox 60.0,,2018-10-09 14:59:36,2018-10-09 14:59:41,4.507s,PASSED
+maximizeWindow,Firefox 60.0,,2018-10-09 14:59:41,2018-10-09 14:59:44,3.556s,PASSED
+navigateToUrl,Firefox 60.0,,2018-10-09 14:59:44,2018-10-09 14:59:46,2.169s,PASSED
+setText,Firefox 60.0,,2018-10-09 14:59:46,2018-10-09 14:59:46,0.160s,PASSED
+click,Firefox 60.0,,2018-10-09 14:59:46,2018-10-09 14:59:47,0.400s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:47,2018-10-09 14:59:47,0.217s,PASSED
+setEncryptedText,Firefox 60.0,,2018-10-09 14:59:47,2018-10-09 14:59:47,0.170s,PASSED
+click,Firefox 60.0,,2018-10-09 14:59:47,2018-10-09 14:59:48,0.488s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:48,2018-10-09 14:59:48,0.155s,PASSED
+setText,Firefox 60.0,Invalid Username&Password,2018-10-09 14:59:48,2018-10-09 14:59:48,0.070s,PASSED
+setEncryptedText,Firefox 60.0,,2018-10-09 14:59:48,2018-10-09 14:59:48,0.054s,PASSED
+click,Firefox 60.0,It should display an error message,2018-10-09 14:59:48,2018-10-09 14:59:48,0.482s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:48,2018-10-09 14:59:49,0.174s,PASSED
+setText,Firefox 60.0,valid Username&Password,2018-10-09 14:59:49,2018-10-09 14:59:49,0.057s,PASSED
+setEncryptedText,Firefox 60.0,,2018-10-09 14:59:49,2018-10-09 14:59:49,0.056s,PASSED
+click,Firefox 60.0,"It should display Login Page
+",2018-10-09 14:59:49,2018-10-09 14:59:50,0.912s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:50,2018-10-09 14:59:50,0.197s,PASSED
+click,Firefox 60.0,Click On Delivery Report,2018-10-09 14:59:50,2018-10-09 14:59:50,0.385s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:50,2018-10-09 14:59:50,0.148s,PASSED
+click,Firefox 60.0,Click on LO Performance By Date    ,2018-10-09 14:59:50,2018-10-09 14:59:51,0.399s,PASSED
+setText,Firefox 60.0,,2018-10-09 14:59:51,2018-10-09 14:59:51,0.078s,PASSED
+setText,Firefox 60.0,,2018-10-09 14:59:51,2018-10-09 14:59:51,0.096s,PASSED
+selectOptionByValue,Firefox 60.0,,2018-10-09 14:59:51,2018-10-09 14:59:52,0.591s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:52,2018-10-09 14:59:52,0.166s,PASSED
+click,Firefox 60.0,"Click on 'reset' option
+",2018-10-09 14:59:52,2018-10-09 14:59:52,0.262s,PASSED
+takeScreenshot,Firefox 60.0,All the filled-in data should get erased when clicked on the reset link,2018-10-09 14:59:52,2018-10-09 14:59:52,0.147s,PASSED
+click,Firefox 60.0,"without giving any inputs
+",2018-10-09 14:59:52,2018-10-09 14:59:52,0.237s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:52,2018-10-09 14:59:53,0.181s,PASSED
+setText,Firefox 60.0,,2018-10-09 14:59:53,2018-10-09 14:59:53,0.080s,PASSED
+setText,Firefox 60.0,,2018-10-09 14:59:53,2018-10-09 14:59:53,0.078s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Road Tax  ,2018-10-09 14:59:53,2018-10-09 14:59:53,0.587s,PASSED
+click,Firefox 60.0,,2018-10-09 14:59:53,2018-10-09 14:59:54,0.606s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:54,2018-10-09 14:59:54,0.172s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Insolvency,2018-10-09 14:59:54,2018-10-09 14:59:55,0.526s,PASSED
+click,Firefox 60.0,,2018-10-09 14:59:55,2018-10-09 14:59:55,0.367s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:55,2018-10-09 14:59:55,0.153s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Immigration,2018-10-09 14:59:55,2018-10-09 14:59:56,0.493s,PASSED
+click,Firefox 60.0,,2018-10-09 14:59:56,2018-10-09 14:59:56,0.389s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:56,2018-10-09 14:59:56,0.153s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Immigration Maid,2018-10-09 14:59:56,2018-10-09 14:59:57,0.511s,PASSED
+click,Firefox 60.0,,2018-10-09 14:59:57,2018-10-09 14:59:57,0.482s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:57,2018-10-09 14:59:57,0.157s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Immigration FW,2018-10-09 14:59:57,2018-10-09 14:59:58,0.546s,PASSED
+click,Firefox 60.0,,2018-10-09 14:59:58,2018-10-09 14:59:58,0.434s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:58,2018-10-09 14:59:58,0.158s,PASSED
+selectOptionByValue,Firefox 60.0,Click on CDL,2018-10-09 14:59:58,2018-10-09 14:59:59,0.542s,PASSED
+click,Firefox 60.0,,2018-10-09 14:59:59,2018-10-09 14:59:59,0.442s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 14:59:59,2018-10-09 15:00:00,0.151s,PASSED
+selectOptionByValue,Firefox 60.0,Click on 1MID,2018-10-09 15:00:00,2018-10-09 15:00:00,0.591s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:00,2018-10-09 15:00:01,0.429s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:01,2018-10-09 15:00:01,0.166s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Spanco Road Tax,2018-10-09 15:00:01,2018-10-09 15:00:01,0.572s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:01,2018-10-09 15:00:02,0.545s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:02,2018-10-09 15:00:02,0.208s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Legalisation,2018-10-09 15:00:02,2018-10-09 15:00:03,0.721s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:03,2018-10-09 15:00:03,0.433s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:03,2018-10-09 15:00:03,0.187s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Legalisation Delivery,2018-10-09 15:00:03,2018-10-09 15:00:04,0.638s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:04,2018-10-09 15:00:05,0.504s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:05,2018-10-09 15:00:05,0.195s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Roadtax SS,2018-10-09 15:00:05,2018-10-09 15:00:05,0.608s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:05,2018-10-09 15:00:06,0.470s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:06,2018-10-09 15:00:06,0.158s,PASSED
+selectOptionByValue,Firefox 60.0,Click on JPJ1M,2018-10-09 15:00:06,2018-10-09 15:00:07,0.772s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:07,2018-10-09 15:00:07,0.476s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:07,2018-10-09 15:00:07,0.176s,PASSED
+selectOptionByValue,Firefox 60.0,Click on IMI1M,2018-10-09 15:00:07,2018-10-09 15:00:08,0.707s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:08,2018-10-09 15:00:09,0.461s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:09,2018-10-09 15:00:09,0.164s,PASSED
+selectOptionByValue,Firefox 60.0,Click on ETMS,2018-10-09 15:00:09,2018-10-09 15:00:09,0.653s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:09,2018-10-09 15:00:10,0.518s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:10,2018-10-09 15:00:10,0.188s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:10,2018-10-09 15:00:11,0.509s,PASSED
+click,Firefox 60.0,Click on   LO Performance By Name,2018-10-09 15:00:11,2018-10-09 15:00:11,0.495s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:11,2018-10-09 15:00:11,0.177s,PASSED
+click,Firefox 60.0,Click on 'reset' option,2018-10-09 15:00:11,2018-10-09 15:00:12,0.247s,PASSED
+takeScreenshot,Firefox 60.0,All the filled-in data should get erased when clicked on the reset link,2018-10-09 15:00:12,2018-10-09 15:00:12,0.149s,PASSED
+click,Firefox 60.0,without giving any inputs,2018-10-09 15:00:12,2018-10-09 15:00:12,0.230s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:12,2018-10-09 15:00:12,0.172s,PASSED
+selectOptionByValue,Firefox 60.0,,2018-10-09 15:00:12,2018-10-09 15:00:44,32.046s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:00:44,2018-10-09 15:00:44,0.068s,PASSED
+setText,Firefox 60.0,,2018-10-09 15:00:44,2018-10-09 15:00:44,0.084s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Road Tax,2018-10-09 15:00:44,2018-10-09 15:00:45,0.541s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:45,2018-10-09 15:00:47,1.866s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:47,2018-10-09 15:00:47,0.165s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Insolvency,2018-10-09 15:00:47,2018-10-09 15:00:47,0.553s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:47,2018-10-09 15:00:49,1.912s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:49,2018-10-09 15:00:49,0.162s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Immigration,2018-10-09 15:00:49,2018-10-09 15:00:50,0.537s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:50,2018-10-09 15:00:51,1.273s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:51,2018-10-09 15:00:51,0.173s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Immigration Maid,2018-10-09 15:00:51,2018-10-09 15:00:52,0.621s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:52,2018-10-09 15:00:53,1.191s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:53,2018-10-09 15:00:53,0.153s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Immigration FW,2018-10-09 15:00:53,2018-10-09 15:00:54,0.754s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:54,2018-10-09 15:00:55,0.859s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:55,2018-10-09 15:00:55,0.165s,PASSED
+selectOptionByValue,Firefox 60.0,Click on CDL,2018-10-09 15:00:55,2018-10-09 15:00:56,0.570s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:56,2018-10-09 15:00:56,0.588s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:56,2018-10-09 15:00:57,0.157s,PASSED
+selectOptionByValue,Firefox 60.0,Click on 1MID,2018-10-09 15:00:57,2018-10-09 15:00:57,0.588s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:57,2018-10-09 15:00:58,0.571s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:58,2018-10-09 15:00:58,0.172s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Spanco Road Tax,2018-10-09 15:00:58,2018-10-09 15:00:58,0.613s,PASSED
+click,Firefox 60.0,,2018-10-09 15:00:58,2018-10-09 15:00:59,0.579s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:00:59,2018-10-09 15:00:59,0.205s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Legalisation,2018-10-09 15:00:59,2018-10-09 15:01:00,0.771s,PASSED
+click,Firefox 60.0,,2018-10-09 15:01:00,2018-10-09 15:01:01,0.569s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:01:01,2018-10-09 15:01:01,0.180s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Legalisation Delivery,2018-10-09 15:01:01,2018-10-09 15:01:01,0.619s,PASSED
+click,Firefox 60.0,,2018-10-09 15:01:01,2018-10-09 15:01:02,0.532s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:01:02,2018-10-09 15:01:02,0.165s,PASSED
+selectOptionByValue,Firefox 60.0,Click on Roadtax SS,2018-10-09 15:01:02,2018-10-09 15:01:03,0.888s,PASSED
+click,Firefox 60.0,,2018-10-09 15:01:03,2018-10-09 15:01:03,0.514s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:01:03,2018-10-09 15:01:04,0.157s,PASSED
+selectOptionByValue,Firefox 60.0,Click on JPJ1M,2018-10-09 15:01:04,2018-10-09 15:01:04,0.666s,PASSED
+click,Firefox 60.0,,2018-10-09 15:01:04,2018-10-09 15:01:05,0.622s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:01:05,2018-10-09 15:01:05,0.193s,PASSED
+selectOptionByValue,Firefox 60.0,Click on IMI1M,2018-10-09 15:01:05,2018-10-09 15:01:06,0.662s,PASSED
+click,Firefox 60.0,,2018-10-09 15:01:06,2018-10-09 15:01:06,0.536s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:01:06,2018-10-09 15:01:07,0.196s,PASSED
+selectOptionByValue,Firefox 60.0,"Click on ETMS
+",2018-10-09 15:01:07,2018-10-09 15:01:07,0.657s,PASSED
+click,Firefox 60.0,,2018-10-09 15:01:07,2018-10-09 15:01:08,0.609s,PASSED
+takeScreenshot,Firefox 60.0,,2018-10-09 15:01:08,2018-10-09 15:01:08,0.166s,PASSED
+click,Firefox 60.0,,2018-10-09 15:01:08,2018-10-09 15:01:08,0.289s,PASSED
+closeBrowser,Firefox 60.0,,2018-10-09 15:01:08,2018-10-09 15:01:09,0.300s,PASSED

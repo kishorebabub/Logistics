@@ -1,0 +1,2277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-03T14:50:03</date>
+  <millis>1538549403894</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/CSO_ADMIN/Ticket</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Ticket</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/CSO_ADMIN/Ticket</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:03</date>
+  <millis>1538549403919</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Owner - L13-IT-KISHORE.myeg.local&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Owner - L13-IT-KISHORE.myeg.local</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:03</date>
+  <millis>1538549403921</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:03</date>
+  <millis>1538549403921</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.8.168&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.8.168</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:03</date>
+  <millis>1538549403923</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.6.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.6.1.1</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:04</date>
+  <millis>1538549404327</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Logistics/Roles/CSO_ADMIN/Ticket</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Logistics/Roles/CSO_ADMIN/Ticket</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Logistics/Roles/CSO_ADMIN/Ticket</property>
+  <property name="source">C:\\Users\\Owner\\Katalon Studio\\Logistics\\Test Cases\\Logistics\\Roles\\CSO_ADMIN\\Ticket.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:04</date>
+  <millis>1538549404372</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:04</date>
+  <millis>1538549404752</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:05</date>
+  <millis>1538549405188</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:05</date>
+  <millis>1538549405191</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:05</date>
+  <millis>1538549405239</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:08</date>
+  <millis>1538549408697</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;ac5ef7ec082113d4eeaf381ba83f9d59&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">ac5ef7ec082113d4eeaf381ba83f9d59</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:08</date>
+  <millis>1538549408742</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 69.0.3497.100&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 69.0.3497.100</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:08</date>
+  <millis>1538549408743</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 10&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:08</date>
+  <millis>1538549408746</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:08</date>
+  <millis>1538549408747</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:08</date>
+  <millis>1538549408748</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:08</date>
+  <millis>1538549408749</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:08</date>
+  <millis>1538549408749</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:08</date>
+  <millis>1538549408769</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Maximizing current window</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:10</date>
+  <millis>1538549410004</millis>
+  <sequence>21</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:10</date>
+  <millis>1538549410005</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:10</date>
+  <millis>1538549410006</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:10</date>
+  <millis>1538549410009</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:10</date>
+  <millis>1538549410024</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;http://uat4.myeg.com.my/logistic/login/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:11</date>
+  <millis>1538549411933</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://uat4.myeg.com.my/logistic/login/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:11</date>
+  <millis>1538549411934</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:11</date>
+  <millis>1538549411935</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:11</date>
+  <millis>1538549411945</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:11</date>
+  <millis>1538549411981</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:11</date>
+  <millis>1538549411982</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:11</date>
+  <millis>1538549411982</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:11</date>
+  <millis>1538549411998</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_username&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @name = &amp;apos;j_username&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412031</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_username&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @name = &amp;apos;j_username&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412032</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412065</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412067</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_username&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @name = &amp;apos;j_username&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412084</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_username&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;text&amp;apos; and @name = &amp;apos;j_username&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412093</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_username&amp;apos; to value &amp;apos;AKMA1766&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412177</millis>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;AKMA1766&amp;apos; is set on object &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412178</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412178</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412179</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412202</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412203</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412290</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412290</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_password&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;password&amp;apos; and @name = &amp;apos;j_password&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412322</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_password&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;password&amp;apos; and @name = &amp;apos;j_password&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412335</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412362</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting  text of object &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_password&amp;apos; to value ******</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412416</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_j_password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412417</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412417</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412418</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_submit&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412437</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412437</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412438</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_submit&amp;apos; located by &amp;apos;By.xpath: //input[@name = &amp;apos;submit&amp;apos; and @type = &amp;apos;submit&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412460</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_submit&amp;apos; located by &amp;apos;By.xpath: //input[@name = &amp;apos;submit&amp;apos; and @type = &amp;apos;submit&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:12</date>
+  <millis>1538549412460</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_submit&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:13</date>
+  <millis>1538549413602</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_MyEG Services  Logistic Report/input_submit&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:13</date>
+  <millis>1538549413604</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:13</date>
+  <millis>1538549413606</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:13</date>
+  <millis>1538549413608</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_Ticket&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:13</date>
+  <millis>1538549413615</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:13</date>
+  <millis>1538549413616</millis>
+  <sequence>65</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:13</date>
+  <millis>1538549413617</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_Ticket&amp;apos; located by &amp;apos;By.xpath: //a[@href = &amp;apos;../ticket/List.action&amp;apos; and @title = &amp;apos;Tickets&amp;apos; and (text() = &amp;apos;Ticket&amp;apos; or . = &amp;apos;Ticket&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:13</date>
+  <millis>1538549413651</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_Ticket&amp;apos; located by &amp;apos;By.xpath: //a[@href = &amp;apos;../ticket/List.action&amp;apos; and @title = &amp;apos;Tickets&amp;apos; and (text() = &amp;apos;Ticket&amp;apos; or . = &amp;apos;Ticket&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:13</date>
+  <millis>1538549413652</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_Ticket&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:14</date>
+  <millis>1538549414259</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_Ticket&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:14</date>
+  <millis>1538549414260</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:14</date>
+  <millis>1538549414261</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:14</date>
+  <millis>1538549414263</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select status -     P&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:14</date>
+  <millis>1538549414282</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:14</date>
+  <millis>1538549414282</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking value parameter</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:14</date>
+  <millis>1538549414282</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:14</date>
+  <millis>1538549414283</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select status -     P&amp;apos; located by &amp;apos;By.xpath: //select[@name = &amp;apos;filterStatus&amp;apos; and @id = &amp;apos;filterStatus&amp;apos; and (text() = &amp;apos;\n     - Select status - \n    Pending Printing\n    Pending Collection\n    Pending Delivery\n    Delivered\n    Delivered-No Picture\n    Delivered Manual\n    Delivered Pending Doc\n    Delivery failed\n    No Director Thumbprint\n    No Authorised Person\n    Not 1MID Verified\n    Pending Delivery Unblocked\n    Pending Print Data Problem\n    Pending Delivery CSO Reassign\n    Pending Verification\n    Pending Print Corps\n    Pending Thumbprint\n    Thumbprint Done\n    Refund\n    Open\n    Resolved\n    Archived\n    Pending Print Error - Wrong Data Uploaded\n    Pending Print Error - Different Passport Number\n    Pending Print Error - Wrong Gender\n    Pending Print Error - Different Image\n    Pending Print Error - Image Blur\n    Pending Print Error - Different Company\n    Pending Print Error - Different Name\n    Pending Print Error - Permit SL/BL Inquiry Failed\n    Pending Print Error - Link Cannot Open\n    Pending Print Error - No Permit Uploaded\n    Pending Print Error - No Passport Uploaded\n    Pending Print Error - Permit Uploaded Blur\n    Pending Print Error - Passport Uploaded Blur\n    Pending Print Error - No Uploaded Files\n    Pending Print Error - Image Read Failed\n    Pending Print Error - State Code 099 Error\n    Pending Print Error - Expiry Date\n    Pending Print Error - Permit Inquiry Failed\n    Pending Print Error - Permit Double Push\n    Pending Print Error - Incomplete Address\n    Pending Print Error - Different Address\n    Pending Print Error - Auto Closed\n    Pending Print Error - Server Down   \n    Pending Print Error - No Data Found\n    Pending Print Error - Database Connection Error\n    Pending Print Error - Renewal Count Above 10\n    Pending Damage Sticker\n    Pending Print Error - Printing Sticker Inquiry\n    Pending Print Error - Others\n    Pending Print SL/BL Unblocked\n    Pending Print Error - Different Sector\n    Pending Print Error - Different Sub-sector\n    Pending Print Error - Different Renewal Count\n    Pending Print Error - Passport Expiry Date\n    Pending Print Error - Permit Expiry Date\n    Pending Print Error - Data Uploaded Blur\n    Pending Print Error - Different Nationality\n\n\n&amp;apos; or . = &amp;apos;\n     - Select status - \n    Pending Printing\n    Pending Collection\n    Pending Delivery\n    Delivered\n    Delivered-No Picture\n    Delivered Manual\n    Delivered Pending Doc\n    Delivery failed\n    No Director Thumbprint\n    No Authorised Person\n    Not 1MID Verified\n    Pending Delivery Unblocked\n    Pending Print Data Problem\n    Pending Delivery CSO Reassign\n    Pending Verification\n    Pending Print Corps\n    Pending Thumbprint\n    Thumbprint Done\n    Refund\n    Open\n    Resolved\n    Archived\n    Pending Print Error - Wrong Data Uploaded\n    Pending Print Error - Different Passport Number\n    Pending Print Error - Wrong Gender\n    Pending Print Error - Different Image\n    Pending Print Error - Image Blur\n    Pending Print Error - Different Company\n    Pending Print Error - Different Name\n    Pending Print Error - Permit SL/BL Inquiry Failed\n    Pending Print Error - Link Cannot Open\n    Pending Print Error - No Permit Uploaded\n    Pending Print Error - No Passport Uploaded\n    Pending Print Error - Permit Uploaded Blur\n    Pending Print Error - Passport Uploaded Blur\n    Pending Print Error - No Uploaded Files\n    Pending Print Error - Image Read Failed\n    Pending Print Error - State Code 099 Error\n    Pending Print Error - Expiry Date\n    Pending Print Error - Permit Inquiry Failed\n    Pending Print Error - Permit Double Push\n    Pending Print Error - Incomplete Address\n    Pending Print Error - Different Address\n    Pending Print Error - Auto Closed\n    Pending Print Error - Server Down   \n    Pending Print Error - No Data Found\n    Pending Print Error - Database Connection Error\n    Pending Print Error - Renewal Count Above 10\n    Pending Damage Sticker\n    Pending Print Error - Printing Sticker Inquiry\n    Pending Print Error - Others\n    Pending Print SL/BL Unblocked\n    Pending Print Error - Different Sector\n    Pending Print Error - Different Sub-sector\n    Pending Print Error - Different Renewal Count\n    Pending Print Error - Passport Expiry Date\n    Pending Print Error - Permit Expiry Date\n    Pending Print Error - Data Uploaded Blur\n    Pending Print Error - Different Nationality\n\n\n&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:14</date>
+  <millis>1538549414306</millis>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select status -     P&amp;apos; located by &amp;apos;By.xpath: //select[@name = &amp;apos;filterStatus&amp;apos; and @id = &amp;apos;filterStatus&amp;apos; and (text() = &amp;apos;\n     - Select status - \n    Pending Printing\n    Pending Collection\n    Pending Delivery\n    Delivered\n    Delivered-No Picture\n    Delivered Manual\n    Delivered Pending Doc\n    Delivery failed\n    No Director Thumbprint\n    No Authorised Person\n    Not 1MID Verified\n    Pending Delivery Unblocked\n    Pending Print Data Problem\n    Pending Delivery CSO Reassign\n    Pending Verification\n    Pending Print Corps\n    Pending Thumbprint\n    Thumbprint Done\n    Refund\n    Open\n    Resolved\n    Archived\n    Pending Print Error - Wrong Data Uploaded\n    Pending Print Error - Different Passport Number\n    Pending Print Error - Wrong Gender\n    Pending Print Error - Different Image\n    Pending Print Error - Image Blur\n    Pending Print Error - Different Company\n    Pending Print Error - Different Name\n    Pending Print Error - Permit SL/BL Inquiry Failed\n    Pending Print Error - Link Cannot Open\n    Pending Print Error - No Permit Uploaded\n    Pending Print Error - No Passport Uploaded\n    Pending Print Error - Permit Uploaded Blur\n    Pending Print Error - Passport Uploaded Blur\n    Pending Print Error - No Uploaded Files\n    Pending Print Error - Image Read Failed\n    Pending Print Error - State Code 099 Error\n    Pending Print Error - Expiry Date\n    Pending Print Error - Permit Inquiry Failed\n    Pending Print Error - Permit Double Push\n    Pending Print Error - Incomplete Address\n    Pending Print Error - Different Address\n    Pending Print Error - Auto Closed\n    Pending Print Error - Server Down   \n    Pending Print Error - No Data Found\n    Pending Print Error - Database Connection Error\n    Pending Print Error - Renewal Count Above 10\n    Pending Damage Sticker\n    Pending Print Error - Printing Sticker Inquiry\n    Pending Print Error - Others\n    Pending Print SL/BL Unblocked\n    Pending Print Error - Different Sector\n    Pending Print Error - Different Sub-sector\n    Pending Print Error - Different Renewal Count\n    Pending Print Error - Passport Expiry Date\n    Pending Print Error - Permit Expiry Date\n    Pending Print Error - Data Uploaded Blur\n    Pending Print Error - Different Nationality\n\n\n&amp;apos; or . = &amp;apos;\n     - Select status - \n    Pending Printing\n    Pending Collection\n    Pending Delivery\n    Delivered\n    Delivered-No Picture\n    Delivered Manual\n    Delivered Pending Doc\n    Delivery failed\n    No Director Thumbprint\n    No Authorised Person\n    Not 1MID Verified\n    Pending Delivery Unblocked\n    Pending Print Data Problem\n    Pending Delivery CSO Reassign\n    Pending Verification\n    Pending Print Corps\n    Pending Thumbprint\n    Thumbprint Done\n    Refund\n    Open\n    Resolved\n    Archived\n    Pending Print Error - Wrong Data Uploaded\n    Pending Print Error - Different Passport Number\n    Pending Print Error - Wrong Gender\n    Pending Print Error - Different Image\n    Pending Print Error - Image Blur\n    Pending Print Error - Different Company\n    Pending Print Error - Different Name\n    Pending Print Error - Permit SL/BL Inquiry Failed\n    Pending Print Error - Link Cannot Open\n    Pending Print Error - No Permit Uploaded\n    Pending Print Error - No Passport Uploaded\n    Pending Print Error - Permit Uploaded Blur\n    Pending Print Error - Passport Uploaded Blur\n    Pending Print Error - No Uploaded Files\n    Pending Print Error - Image Read Failed\n    Pending Print Error - State Code 099 Error\n    Pending Print Error - Expiry Date\n    Pending Print Error - Permit Inquiry Failed\n    Pending Print Error - Permit Double Push\n    Pending Print Error - Incomplete Address\n    Pending Print Error - Different Address\n    Pending Print Error - Auto Closed\n    Pending Print Error - Server Down   \n    Pending Print Error - No Data Found\n    Pending Print Error - Database Connection Error\n    Pending Print Error - Renewal Count Above 10\n    Pending Damage Sticker\n    Pending Print Error - Printing Sticker Inquiry\n    Pending Print Error - Others\n    Pending Print SL/BL Unblocked\n    Pending Print Error - Different Sector\n    Pending Print Error - Different Sub-sector\n    Pending Print Error - Different Renewal Count\n    Pending Print Error - Passport Expiry Date\n    Pending Print Error - Permit Expiry Date\n    Pending Print Error - Data Uploaded Blur\n    Pending Print Error - Different Nationality\n\n\n&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:14</date>
+  <millis>1538549414366</millis>
+  <sequence>78</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select status -     P&amp;apos; with value &amp;apos;2&amp;apos; using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:14</date>
+  <millis>1538549414563</millis>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option at index &amp;apos;1&amp;apos; with value &amp;apos;2&amp;apos; is selected  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415005</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;2&amp;apos; are selected in object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select status -     P&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415006</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415006</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415007</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415010</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415010</millis>
+  <sequence>85</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking value parameter</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415010</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415010</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --&amp;apos; located by &amp;apos;By.xpath: //select[@name = &amp;apos;filterService&amp;apos; and @id = &amp;apos;filterService&amp;apos; and (text() = &amp;apos;\n    -- Please Select --\n    Road Tax\n    Insolvency\n    Immigration\n    Immigration Maid\n    Immigration FW\n    CDL\n    1MID\n    SPANCO Road Tax\n    Legalisation\n    Legalisation Delivery\n    Roadtax SS\n    Pati Letter\n    JPJ1M\n    IMI1M\n    ETMS\n\n\n&amp;apos; or . = &amp;apos;\n    -- Please Select --\n    Road Tax\n    Insolvency\n    Immigration\n    Immigration Maid\n    Immigration FW\n    CDL\n    1MID\n    SPANCO Road Tax\n    Legalisation\n    Legalisation Delivery\n    Roadtax SS\n    Pati Letter\n    JPJ1M\n    IMI1M\n    ETMS\n\n\n&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415041</millis>
+  <sequence>88</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --&amp;apos; located by &amp;apos;By.xpath: //select[@name = &amp;apos;filterService&amp;apos; and @id = &amp;apos;filterService&amp;apos; and (text() = &amp;apos;\n    -- Please Select --\n    Road Tax\n    Insolvency\n    Immigration\n    Immigration Maid\n    Immigration FW\n    CDL\n    1MID\n    SPANCO Road Tax\n    Legalisation\n    Legalisation Delivery\n    Roadtax SS\n    Pati Letter\n    JPJ1M\n    IMI1M\n    ETMS\n\n\n&amp;apos; or . = &amp;apos;\n    -- Please Select --\n    Road Tax\n    Insolvency\n    Immigration\n    Immigration Maid\n    Immigration FW\n    CDL\n    1MID\n    SPANCO Road Tax\n    Legalisation\n    Legalisation Delivery\n    Roadtax SS\n    Pati Letter\n    JPJ1M\n    IMI1M\n    ETMS\n\n\n&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415106</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --&amp;apos; with value &amp;apos;LK&amp;apos; using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415265</millis>
+  <sequence>90</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option at index &amp;apos;1&amp;apos; with value &amp;apos;LK&amp;apos; is selected  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415368</millis>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;LK&amp;apos; are selected in object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415368</millis>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415368</millis>
+  <sequence>93</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415369</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --    _1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415372</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415372</millis>
+  <sequence>96</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking value parameter</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415372</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415372</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --    _1&amp;apos; located by &amp;apos;By.xpath: //select[@name = &amp;apos;filterCollMethod&amp;apos; and @id = &amp;apos;filterCollMethod&amp;apos; and (text() = &amp;apos;\n    -- Please Select --\n    NORMAL HOME DELIVERY\n    EXPRESS HOME DELIVERY\n    SELF COLLECTION\n    ALAMANDA PUTRAJAYA\n    PASAR TANI MEGA, SHAH ALAM\n    PERSIARAN, BANGI\n    PUSAT PENJAJA,DANAU KOTA\n    STADIUM TUANKU ABDUL RAHMAN,SEREMBAN\n    AGRIBISNENS,KOTA BHARU\n    STADIUM DARUL AMAN,ALOR SETAR\n    SABASUN HYPERMARKET,KUALA TERENGGANU\n    TAPAK PASAR TANI MEGA, KUANTAN\n    THE STORE KANGAR,PERLIS\n    TAPAK PASAR PENAGA, PENANG\n    KOMPLEKS PKNS, SHAH ALAM\n    KOMPLEKS PKNS, BANGI \n    WILAYAH PERSEKUTUAN, DANAU KOTA\n    STADIUM TAR, SEREMBAN \n    PASAR TANI MERLIMAU, MELAKA\n    GREEN TOWN MALL, IPOH\n    PASAR TANI BANDAR BARU, JOHOR\n\n\n&amp;apos; or . = &amp;apos;\n    -- Please Select --\n    NORMAL HOME DELIVERY\n    EXPRESS HOME DELIVERY\n    SELF COLLECTION\n    ALAMANDA PUTRAJAYA\n    PASAR TANI MEGA, SHAH ALAM\n    PERSIARAN, BANGI\n    PUSAT PENJAJA,DANAU KOTA\n    STADIUM TUANKU ABDUL RAHMAN,SEREMBAN\n    AGRIBISNENS,KOTA BHARU\n    STADIUM DARUL AMAN,ALOR SETAR\n    SABASUN HYPERMARKET,KUALA TERENGGANU\n    TAPAK PASAR TANI MEGA, KUANTAN\n    THE STORE KANGAR,PERLIS\n    TAPAK PASAR PENAGA, PENANG\n    KOMPLEKS PKNS, SHAH ALAM\n    KOMPLEKS PKNS, BANGI \n    WILAYAH PERSEKUTUAN, DANAU KOTA\n    STADIUM TAR, SEREMBAN \n    PASAR TANI MERLIMAU, MELAKA\n    GREEN TOWN MALL, IPOH\n    PASAR TANI BANDAR BARU, JOHOR\n\n\n&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415396</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --    _1&amp;apos; located by &amp;apos;By.xpath: //select[@name = &amp;apos;filterCollMethod&amp;apos; and @id = &amp;apos;filterCollMethod&amp;apos; and (text() = &amp;apos;\n    -- Please Select --\n    NORMAL HOME DELIVERY\n    EXPRESS HOME DELIVERY\n    SELF COLLECTION\n    ALAMANDA PUTRAJAYA\n    PASAR TANI MEGA, SHAH ALAM\n    PERSIARAN, BANGI\n    PUSAT PENJAJA,DANAU KOTA\n    STADIUM TUANKU ABDUL RAHMAN,SEREMBAN\n    AGRIBISNENS,KOTA BHARU\n    STADIUM DARUL AMAN,ALOR SETAR\n    SABASUN HYPERMARKET,KUALA TERENGGANU\n    TAPAK PASAR TANI MEGA, KUANTAN\n    THE STORE KANGAR,PERLIS\n    TAPAK PASAR PENAGA, PENANG\n    KOMPLEKS PKNS, SHAH ALAM\n    KOMPLEKS PKNS, BANGI \n    WILAYAH PERSEKUTUAN, DANAU KOTA\n    STADIUM TAR, SEREMBAN \n    PASAR TANI MERLIMAU, MELAKA\n    GREEN TOWN MALL, IPOH\n    PASAR TANI BANDAR BARU, JOHOR\n\n\n&amp;apos; or . = &amp;apos;\n    -- Please Select --\n    NORMAL HOME DELIVERY\n    EXPRESS HOME DELIVERY\n    SELF COLLECTION\n    ALAMANDA PUTRAJAYA\n    PASAR TANI MEGA, SHAH ALAM\n    PERSIARAN, BANGI\n    PUSAT PENJAJA,DANAU KOTA\n    STADIUM TUANKU ABDUL RAHMAN,SEREMBAN\n    AGRIBISNENS,KOTA BHARU\n    STADIUM DARUL AMAN,ALOR SETAR\n    SABASUN HYPERMARKET,KUALA TERENGGANU\n    TAPAK PASAR TANI MEGA, KUANTAN\n    THE STORE KANGAR,PERLIS\n    TAPAK PASAR PENAGA, PENANG\n    KOMPLEKS PKNS, SHAH ALAM\n    KOMPLEKS PKNS, BANGI \n    WILAYAH PERSEKUTUAN, DANAU KOTA\n    STADIUM TAR, SEREMBAN \n    PASAR TANI MERLIMAU, MELAKA\n    GREEN TOWN MALL, IPOH\n    PASAR TANI BANDAR BARU, JOHOR\n\n\n&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415453</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --    _1&amp;apos; with value &amp;apos;1&amp;apos; using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415607</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option at index &amp;apos;1&amp;apos; with value &amp;apos;1&amp;apos; is selected  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415752</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;1&amp;apos; are selected in object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_-- Please Select --    _1&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415752</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415752</millis>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415753</millis>
+  <sequence>105</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select area -    Air&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415756</millis>
+  <sequence>106</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415756</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking value parameter</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415756</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415756</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select area -    Air&amp;apos; located by &amp;apos;By.xpath: //select[@name = &amp;apos;filterArea&amp;apos; and @id = &amp;apos;filterArea&amp;apos; and (text() = &amp;apos;\n     - Select area -\n    Air Baloi\n    AlorSetar1\n    AlorSetar2\n    AlorSetar3\n    Ampang\n    as.johor bharu\n    Ayer Tawar\n    Bahau\n    Bahau1\n    Bahau2\n    Bahau3\n    Bakri\n    Bandar Bera\n    Bandar Bukit\n    Bandar Cyberjaya\n    Bandar  Jerantut\n    Bandar Pusat\n    Bandar Putrajaya\n    Bandar Triang\n    Bangi ( Bandar Baru  ) \n    Bangsar / Pantai1\n    Bangsar / Pantai2\n    Bangsar / Pantai3\n    Bangsar / Pantai4\n    Banting\n    Batang Berjuntai\n    Batang Kali\n    Batu 9,Jln \n    Batu Caves\n    Batu Pahat\n    Batu Pahat1\n    Bdr Menjalara,Bdr Sri Damansara\n    Beaufort\n    Benta\n    Bentong1\n    Bentong2\n    Bentong4\n    Benut\n    Betong\n    Bintulu\n    Bukit kemuning\n    Bukit Mertajam\n    Bukit Rotan\n    Butterworth1\n    Butterworth2\n    Chan Chow Lin\n    Cheras\n    Chukai\n    Debak\n    Dengkil\n    Durian Tunggal\n    Engkili\n    Gelang\n    Genting Highlands\n    Gombak , Setapak,Wangsa Maju\n    Gua Musang\n    Ipoh1\n    Ipoh2\n    Ipoh3\n    Jabi\n    Jalan Utara\n    Jenjarom\n    Jeram\n    Jerteh\n    Jinjang\n    Jln Kelang Lama1\n    Jln Kelang Lama2\n    Johor Bharu1\n    Johor Bharu2\n    Kajang\n    Kamunting\n    Kangar\n    Kapar\n    Kapit\n    Karak\n    Kementah,J Pdg\n    Kem Terendak\n    Keningau\n    Kepong\n    Kerling\n    Kerling\n    Kerteh\n    Kg Pandan\n    Klang\n    Klia Sepang\n    Kluang\n    Kota Belud\n    Kota Bharu\n    Kota Kinabalu\n    Kota Marudi\n    Kuala Kangsar\n    Kuala Krai\n     Kuala Kubu Baru\n    Kuala Kubu Baru\n    Kuala Lipis\n    Kuala Lumpur1\n    Kuala Lumpur2\n    Kuala Lumpur3\n    Kuala Lumpur4\n    Kuala Lumpur5\n    Kuala Lumpur6\n    Kuala Lumpur7\n    Kuala Lumpur8\n    Kuala Selangor\n    Kuala Terengganu\n    Kuantan1\n    Kuantan2\n    Kuantan3\n    Kubang Semang\n    Kuching\n    Kudat\n    Kukup\n    kulai\n    Kulim\n    Labuan\n    Lahad Datu\n    Langkawi\n    Lawas\n    Lembah Keramat, Setiawangsa\n    Limbang\n    Lubuk Antu\n    Lukut\n    Lukut1\n    Lukut2\n    Lukut3\n    Lukut4\n    Lumut\n    Lunas\n    Lutong\n    Masai / Plentong / Permas Jaya\n    Melaka1\n    Melaka2\n    Mentakab\n    Miri\n    Muadzam Shah\n    Muar\n    Mukah\n    Mutira Damansara\n    Nabawan\n    Nilai\n    Nusajaya\n    Padang Tengku\n    Pandan Perdana\n    Papar\n    Pasir Gudang\n    Pekan Nanas\n    Pelabuhan Klang\n    Penampang\n    Petaling Jaya1\n    Petaling Jaya2\n    Pontian\n    Puchong\n    Pudu\n    Pudu / Jln Imbi\n    Pulau Carey\n    Pulau Indah\n    Pulau Pinang\n    Pusa\n    Ranau\n    Rantau Panjang\n    Rasa\n    Raub1\n    Raub2\n    Raub3\n    Raub4\n    Rawang\n    Sabak Bernam\n    Samarahan\n    Sandakan\n    Sandakan\n    Sarikei\n    Seberang Takir\n    Sega \n    Segamat\n    Sekinchan\n    Semenyih\n    Senai\n    Sentul,Segambut\n    Seremban1\n    Seremban2\n    Seremban3\n    Seremban4\n    Seremban5\n    Seremban6\n    Serendah\n    Serian\n    Seri Kembangan\n    Seri Manjong\n    Sg Ayer Tawar\n    Sg Besar\n    Sg Besi1\n    Sg Besi2\n    Sg Koyan\n    Shah alam\n    Sibu\n    Simpang\n    Simpang Pelangi\n    Sipitang\n    Sitiawan\n    Spaoh\n    Sri Aman\n    Subang air port\n    Sungai buluh\n    Sungai Pelek\n    Sungai Petani\n    Sungai Udang\n    Taiping\n    Taman Tun Dr\n    Tambunan\n    Tangkak\n    Tangkak1\n    Tangkak2\n    Tanjung Kidurong\n    Tanjung Kling\n    Tanjung Sepat\n    Tapah\n    Tawau\n    Tawau\n    Teluk Intan1\n    Teluk Intan2\n    Teluk Panglima\n    Temerloh\n    Tenom\n    Tg Karang\n    TLDM Lumut\n    Tuaran\n    Upm Serdang\n    Usj,Subang Jaya\n    Wakaf Bharu\n\n\n&amp;apos; or . = &amp;apos;\n     - Select area -\n    Air Baloi\n    AlorSetar1\n    AlorSetar2\n    AlorSetar3\n    Ampang\n    as.johor bharu\n    Ayer Tawar\n    Bahau\n    Bahau1\n    Bahau2\n    Bahau3\n    Bakri\n    Bandar Bera\n    Bandar Bukit\n    Bandar Cyberjaya\n    Bandar  Jerantut\n    Bandar Pusat\n    Bandar Putrajaya\n    Bandar Triang\n    Bangi ( Bandar Baru  ) \n    Bangsar / Pantai1\n    Bangsar / Pantai2\n    Bangsar / Pantai3\n    Bangsar / Pantai4\n    Banting\n    Batang Berjuntai\n    Batang Kali\n    Batu 9,Jln \n    Batu Caves\n    Batu Pahat\n    Batu Pahat1\n    Bdr Menjalara,Bdr Sri Damansara\n    Beaufort\n    Benta\n    Bentong1\n    Bentong2\n    Bentong4\n    Benut\n    Betong\n    Bintulu\n    Bukit kemuning\n    Bukit Mertajam\n    Bukit Rotan\n    Butterworth1\n    Butterworth2\n    Chan Chow Lin\n    Cheras\n    Chukai\n    Debak\n    Dengkil\n    Durian Tunggal\n    Engkili\n    Gelang\n    Genting Highlands\n    Gombak , Setapak,Wangsa Maju\n    Gua Musang\n    Ipoh1\n    Ipoh2\n    Ipoh3\n    Jabi\n    Jalan Utara\n    Jenjarom\n    Jeram\n    Jerteh\n    Jinjang\n    Jln Kelang Lama1\n    Jln Kelang Lama2\n    Johor Bharu1\n    Johor Bharu2\n    Kajang\n    Kamunting\n    Kangar\n    Kapar\n    Kapit\n    Karak\n    Kementah,J Pdg\n    Kem Terendak\n    Keningau\n    Kepong\n    Kerling\n    Kerling\n    Kerteh\n    Kg Pandan\n    Klang\n    Klia Sepang\n    Kluang\n    Kota Belud\n    Kota Bharu\n    Kota Kinabalu\n    Kota Marudi\n    Kuala Kangsar\n    Kuala Krai\n     Kuala Kubu Baru\n    Kuala Kubu Baru\n    Kuala Lipis\n    Kuala Lumpur1\n    Kuala Lumpur2\n    Kuala Lumpur3\n    Kuala Lumpur4\n    Kuala Lumpur5\n    Kuala Lumpur6\n    Kuala Lumpur7\n    Kuala Lumpur8\n    Kuala Selangor\n    Kuala Terengganu\n    Kuantan1\n    Kuantan2\n    Kuantan3\n    Kubang Semang\n    Kuching\n    Kudat\n    Kukup\n    kulai\n    Kulim\n    Labuan\n    Lahad Datu\n    Langkawi\n    Lawas\n    Lembah Keramat, Setiawangsa\n    Limbang\n    Lubuk Antu\n    Lukut\n    Lukut1\n    Lukut2\n    Lukut3\n    Lukut4\n    Lumut\n    Lunas\n    Lutong\n    Masai / Plentong / Permas Jaya\n    Melaka1\n    Melaka2\n    Mentakab\n    Miri\n    Muadzam Shah\n    Muar\n    Mukah\n    Mutira Damansara\n    Nabawan\n    Nilai\n    Nusajaya\n    Padang Tengku\n    Pandan Perdana\n    Papar\n    Pasir Gudang\n    Pekan Nanas\n    Pelabuhan Klang\n    Penampang\n    Petaling Jaya1\n    Petaling Jaya2\n    Pontian\n    Puchong\n    Pudu\n    Pudu / Jln Imbi\n    Pulau Carey\n    Pulau Indah\n    Pulau Pinang\n    Pusa\n    Ranau\n    Rantau Panjang\n    Rasa\n    Raub1\n    Raub2\n    Raub3\n    Raub4\n    Rawang\n    Sabak Bernam\n    Samarahan\n    Sandakan\n    Sandakan\n    Sarikei\n    Seberang Takir\n    Sega \n    Segamat\n    Sekinchan\n    Semenyih\n    Senai\n    Sentul,Segambut\n    Seremban1\n    Seremban2\n    Seremban3\n    Seremban4\n    Seremban5\n    Seremban6\n    Serendah\n    Serian\n    Seri Kembangan\n    Seri Manjong\n    Sg Ayer Tawar\n    Sg Besar\n    Sg Besi1\n    Sg Besi2\n    Sg Koyan\n    Shah alam\n    Sibu\n    Simpang\n    Simpang Pelangi\n    Sipitang\n    Sitiawan\n    Spaoh\n    Sri Aman\n    Subang air port\n    Sungai buluh\n    Sungai Pelek\n    Sungai Petani\n    Sungai Udang\n    Taiping\n    Taman Tun Dr\n    Tambunan\n    Tangkak\n    Tangkak1\n    Tangkak2\n    Tanjung Kidurong\n    Tanjung Kling\n    Tanjung Sepat\n    Tapah\n    Tawau\n    Tawau\n    Teluk Intan1\n    Teluk Intan2\n    Teluk Panglima\n    Temerloh\n    Tenom\n    Tg Karang\n    TLDM Lumut\n    Tuaran\n    Upm Serdang\n    Usj,Subang Jaya\n    Wakaf Bharu\n\n\n&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415786</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select area -    Air&amp;apos; located by &amp;apos;By.xpath: //select[@name = &amp;apos;filterArea&amp;apos; and @id = &amp;apos;filterArea&amp;apos; and (text() = &amp;apos;\n     - Select area -\n    Air Baloi\n    AlorSetar1\n    AlorSetar2\n    AlorSetar3\n    Ampang\n    as.johor bharu\n    Ayer Tawar\n    Bahau\n    Bahau1\n    Bahau2\n    Bahau3\n    Bakri\n    Bandar Bera\n    Bandar Bukit\n    Bandar Cyberjaya\n    Bandar  Jerantut\n    Bandar Pusat\n    Bandar Putrajaya\n    Bandar Triang\n    Bangi ( Bandar Baru  ) \n    Bangsar / Pantai1\n    Bangsar / Pantai2\n    Bangsar / Pantai3\n    Bangsar / Pantai4\n    Banting\n    Batang Berjuntai\n    Batang Kali\n    Batu 9,Jln \n    Batu Caves\n    Batu Pahat\n    Batu Pahat1\n    Bdr Menjalara,Bdr Sri Damansara\n    Beaufort\n    Benta\n    Bentong1\n    Bentong2\n    Bentong4\n    Benut\n    Betong\n    Bintulu\n    Bukit kemuning\n    Bukit Mertajam\n    Bukit Rotan\n    Butterworth1\n    Butterworth2\n    Chan Chow Lin\n    Cheras\n    Chukai\n    Debak\n    Dengkil\n    Durian Tunggal\n    Engkili\n    Gelang\n    Genting Highlands\n    Gombak , Setapak,Wangsa Maju\n    Gua Musang\n    Ipoh1\n    Ipoh2\n    Ipoh3\n    Jabi\n    Jalan Utara\n    Jenjarom\n    Jeram\n    Jerteh\n    Jinjang\n    Jln Kelang Lama1\n    Jln Kelang Lama2\n    Johor Bharu1\n    Johor Bharu2\n    Kajang\n    Kamunting\n    Kangar\n    Kapar\n    Kapit\n    Karak\n    Kementah,J Pdg\n    Kem Terendak\n    Keningau\n    Kepong\n    Kerling\n    Kerling\n    Kerteh\n    Kg Pandan\n    Klang\n    Klia Sepang\n    Kluang\n    Kota Belud\n    Kota Bharu\n    Kota Kinabalu\n    Kota Marudi\n    Kuala Kangsar\n    Kuala Krai\n     Kuala Kubu Baru\n    Kuala Kubu Baru\n    Kuala Lipis\n    Kuala Lumpur1\n    Kuala Lumpur2\n    Kuala Lumpur3\n    Kuala Lumpur4\n    Kuala Lumpur5\n    Kuala Lumpur6\n    Kuala Lumpur7\n    Kuala Lumpur8\n    Kuala Selangor\n    Kuala Terengganu\n    Kuantan1\n    Kuantan2\n    Kuantan3\n    Kubang Semang\n    Kuching\n    Kudat\n    Kukup\n    kulai\n    Kulim\n    Labuan\n    Lahad Datu\n    Langkawi\n    Lawas\n    Lembah Keramat, Setiawangsa\n    Limbang\n    Lubuk Antu\n    Lukut\n    Lukut1\n    Lukut2\n    Lukut3\n    Lukut4\n    Lumut\n    Lunas\n    Lutong\n    Masai / Plentong / Permas Jaya\n    Melaka1\n    Melaka2\n    Mentakab\n    Miri\n    Muadzam Shah\n    Muar\n    Mukah\n    Mutira Damansara\n    Nabawan\n    Nilai\n    Nusajaya\n    Padang Tengku\n    Pandan Perdana\n    Papar\n    Pasir Gudang\n    Pekan Nanas\n    Pelabuhan Klang\n    Penampang\n    Petaling Jaya1\n    Petaling Jaya2\n    Pontian\n    Puchong\n    Pudu\n    Pudu / Jln Imbi\n    Pulau Carey\n    Pulau Indah\n    Pulau Pinang\n    Pusa\n    Ranau\n    Rantau Panjang\n    Rasa\n    Raub1\n    Raub2\n    Raub3\n    Raub4\n    Rawang\n    Sabak Bernam\n    Samarahan\n    Sandakan\n    Sandakan\n    Sarikei\n    Seberang Takir\n    Sega \n    Segamat\n    Sekinchan\n    Semenyih\n    Senai\n    Sentul,Segambut\n    Seremban1\n    Seremban2\n    Seremban3\n    Seremban4\n    Seremban5\n    Seremban6\n    Serendah\n    Serian\n    Seri Kembangan\n    Seri Manjong\n    Sg Ayer Tawar\n    Sg Besar\n    Sg Besi1\n    Sg Besi2\n    Sg Koyan\n    Shah alam\n    Sibu\n    Simpang\n    Simpang Pelangi\n    Sipitang\n    Sitiawan\n    Spaoh\n    Sri Aman\n    Subang air port\n    Sungai buluh\n    Sungai Pelek\n    Sungai Petani\n    Sungai Udang\n    Taiping\n    Taman Tun Dr\n    Tambunan\n    Tangkak\n    Tangkak1\n    Tangkak2\n    Tanjung Kidurong\n    Tanjung Kling\n    Tanjung Sepat\n    Tapah\n    Tawau\n    Tawau\n    Teluk Intan1\n    Teluk Intan2\n    Teluk Panglima\n    Temerloh\n    Tenom\n    Tg Karang\n    TLDM Lumut\n    Tuaran\n    Upm Serdang\n    Usj,Subang Jaya\n    Wakaf Bharu\n\n\n&amp;apos; or . = &amp;apos;\n     - Select area -\n    Air Baloi\n    AlorSetar1\n    AlorSetar2\n    AlorSetar3\n    Ampang\n    as.johor bharu\n    Ayer Tawar\n    Bahau\n    Bahau1\n    Bahau2\n    Bahau3\n    Bakri\n    Bandar Bera\n    Bandar Bukit\n    Bandar Cyberjaya\n    Bandar  Jerantut\n    Bandar Pusat\n    Bandar Putrajaya\n    Bandar Triang\n    Bangi ( Bandar Baru  ) \n    Bangsar / Pantai1\n    Bangsar / Pantai2\n    Bangsar / Pantai3\n    Bangsar / Pantai4\n    Banting\n    Batang Berjuntai\n    Batang Kali\n    Batu 9,Jln \n    Batu Caves\n    Batu Pahat\n    Batu Pahat1\n    Bdr Menjalara,Bdr Sri Damansara\n    Beaufort\n    Benta\n    Bentong1\n    Bentong2\n    Bentong4\n    Benut\n    Betong\n    Bintulu\n    Bukit kemuning\n    Bukit Mertajam\n    Bukit Rotan\n    Butterworth1\n    Butterworth2\n    Chan Chow Lin\n    Cheras\n    Chukai\n    Debak\n    Dengkil\n    Durian Tunggal\n    Engkili\n    Gelang\n    Genting Highlands\n    Gombak , Setapak,Wangsa Maju\n    Gua Musang\n    Ipoh1\n    Ipoh2\n    Ipoh3\n    Jabi\n    Jalan Utara\n    Jenjarom\n    Jeram\n    Jerteh\n    Jinjang\n    Jln Kelang Lama1\n    Jln Kelang Lama2\n    Johor Bharu1\n    Johor Bharu2\n    Kajang\n    Kamunting\n    Kangar\n    Kapar\n    Kapit\n    Karak\n    Kementah,J Pdg\n    Kem Terendak\n    Keningau\n    Kepong\n    Kerling\n    Kerling\n    Kerteh\n    Kg Pandan\n    Klang\n    Klia Sepang\n    Kluang\n    Kota Belud\n    Kota Bharu\n    Kota Kinabalu\n    Kota Marudi\n    Kuala Kangsar\n    Kuala Krai\n     Kuala Kubu Baru\n    Kuala Kubu Baru\n    Kuala Lipis\n    Kuala Lumpur1\n    Kuala Lumpur2\n    Kuala Lumpur3\n    Kuala Lumpur4\n    Kuala Lumpur5\n    Kuala Lumpur6\n    Kuala Lumpur7\n    Kuala Lumpur8\n    Kuala Selangor\n    Kuala Terengganu\n    Kuantan1\n    Kuantan2\n    Kuantan3\n    Kubang Semang\n    Kuching\n    Kudat\n    Kukup\n    kulai\n    Kulim\n    Labuan\n    Lahad Datu\n    Langkawi\n    Lawas\n    Lembah Keramat, Setiawangsa\n    Limbang\n    Lubuk Antu\n    Lukut\n    Lukut1\n    Lukut2\n    Lukut3\n    Lukut4\n    Lumut\n    Lunas\n    Lutong\n    Masai / Plentong / Permas Jaya\n    Melaka1\n    Melaka2\n    Mentakab\n    Miri\n    Muadzam Shah\n    Muar\n    Mukah\n    Mutira Damansara\n    Nabawan\n    Nilai\n    Nusajaya\n    Padang Tengku\n    Pandan Perdana\n    Papar\n    Pasir Gudang\n    Pekan Nanas\n    Pelabuhan Klang\n    Penampang\n    Petaling Jaya1\n    Petaling Jaya2\n    Pontian\n    Puchong\n    Pudu\n    Pudu / Jln Imbi\n    Pulau Carey\n    Pulau Indah\n    Pulau Pinang\n    Pusa\n    Ranau\n    Rantau Panjang\n    Rasa\n    Raub1\n    Raub2\n    Raub3\n    Raub4\n    Rawang\n    Sabak Bernam\n    Samarahan\n    Sandakan\n    Sandakan\n    Sarikei\n    Seberang Takir\n    Sega \n    Segamat\n    Sekinchan\n    Semenyih\n    Senai\n    Sentul,Segambut\n    Seremban1\n    Seremban2\n    Seremban3\n    Seremban4\n    Seremban5\n    Seremban6\n    Serendah\n    Serian\n    Seri Kembangan\n    Seri Manjong\n    Sg Ayer Tawar\n    Sg Besar\n    Sg Besi1\n    Sg Besi2\n    Sg Koyan\n    Shah alam\n    Sibu\n    Simpang\n    Simpang Pelangi\n    Sipitang\n    Sitiawan\n    Spaoh\n    Sri Aman\n    Subang air port\n    Sungai buluh\n    Sungai Pelek\n    Sungai Petani\n    Sungai Udang\n    Taiping\n    Taman Tun Dr\n    Tambunan\n    Tangkak\n    Tangkak1\n    Tangkak2\n    Tanjung Kidurong\n    Tanjung Kling\n    Tanjung Sepat\n    Tapah\n    Tawau\n    Tawau\n    Teluk Intan1\n    Teluk Intan2\n    Teluk Panglima\n    Temerloh\n    Tenom\n    Tg Karang\n    TLDM Lumut\n    Tuaran\n    Upm Serdang\n    Usj,Subang Jaya\n    Wakaf Bharu\n\n\n&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:15</date>
+  <millis>1538549415849</millis>
+  <sequence>111</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select area -    Air&amp;apos; with value &amp;apos;Bandar Pusat&amp;apos; using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:16</date>
+  <millis>1538549416492</millis>
+  <sequence>112</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option at index &amp;apos;17&amp;apos; with value &amp;apos;Bandar Pusat&amp;apos; is selected  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418046</millis>
+  <sequence>113</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;Bandar Pusat&amp;apos; are selected in object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select area -    Air&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418047</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418047</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418048</millis>
+  <sequence>116</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select TM Name -    A&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418051</millis>
+  <sequence>117</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418051</millis>
+  <sequence>118</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking value parameter</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418051</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418051</millis>
+  <sequence>120</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select TM Name -    A&amp;apos; located by &amp;apos;By.xpath: //select[@name = &amp;apos;filterTmname&amp;apos; and @id = &amp;apos;filterTmname&amp;apos; and (text() = &amp;apos;\n     - Select TM Name -\n    ALL\n    MYEG\n    MYEGSE007371\n    MYEGZULKIFLY\n    MYEGBU003372\n    MYEGAZLINA79\n    MYEGSG003371\n    MYEGKB012371\n    MYEGIP004371\n    MYEGSI004374\n    MYEGME008371\n    MYEGTI004373\n    MYEGTA004372\n    MYEGJB812000\n    MYEGTM2009\n    MYEGAIZAACC\n    MYEGPROJECT1\n    MYEGFARAHRTX\n    MYEGPHOEBEACC\n    MYEGSURATATX\n    MYEGNADIARTX\n    MYEGIRARTXCC\n    MYEGLINARTX\n    MYEGCRRTX919\n    MYEGCRRTX273\n    MYEGCRRTX631\n    MYEGEYLACRTX\n    MYEGHUSNARTX\n    MYEGSHAHRRTX\n    MYEGCRRTX103\n    MYEGRTXPP\n    MYEGAZURACC\n    MYEGLIZARTX\n    MYEGTEST\n    MYEGGANESH\n\n\n&amp;apos; or . = &amp;apos;\n     - Select TM Name -\n    ALL\n    MYEG\n    MYEGSE007371\n    MYEGZULKIFLY\n    MYEGBU003372\n    MYEGAZLINA79\n    MYEGSG003371\n    MYEGKB012371\n    MYEGIP004371\n    MYEGSI004374\n    MYEGME008371\n    MYEGTI004373\n    MYEGTA004372\n    MYEGJB812000\n    MYEGTM2009\n    MYEGAIZAACC\n    MYEGPROJECT1\n    MYEGFARAHRTX\n    MYEGPHOEBEACC\n    MYEGSURATATX\n    MYEGNADIARTX\n    MYEGIRARTXCC\n    MYEGLINARTX\n    MYEGCRRTX919\n    MYEGCRRTX273\n    MYEGCRRTX631\n    MYEGEYLACRTX\n    MYEGHUSNARTX\n    MYEGSHAHRRTX\n    MYEGCRRTX103\n    MYEGRTXPP\n    MYEGAZURACC\n    MYEGLIZARTX\n    MYEGTEST\n    MYEGGANESH\n\n\n&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418082</millis>
+  <sequence>121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select TM Name -    A&amp;apos; located by &amp;apos;By.xpath: //select[@name = &amp;apos;filterTmname&amp;apos; and @id = &amp;apos;filterTmname&amp;apos; and (text() = &amp;apos;\n     - Select TM Name -\n    ALL\n    MYEG\n    MYEGSE007371\n    MYEGZULKIFLY\n    MYEGBU003372\n    MYEGAZLINA79\n    MYEGSG003371\n    MYEGKB012371\n    MYEGIP004371\n    MYEGSI004374\n    MYEGME008371\n    MYEGTI004373\n    MYEGTA004372\n    MYEGJB812000\n    MYEGTM2009\n    MYEGAIZAACC\n    MYEGPROJECT1\n    MYEGFARAHRTX\n    MYEGPHOEBEACC\n    MYEGSURATATX\n    MYEGNADIARTX\n    MYEGIRARTXCC\n    MYEGLINARTX\n    MYEGCRRTX919\n    MYEGCRRTX273\n    MYEGCRRTX631\n    MYEGEYLACRTX\n    MYEGHUSNARTX\n    MYEGSHAHRRTX\n    MYEGCRRTX103\n    MYEGRTXPP\n    MYEGAZURACC\n    MYEGLIZARTX\n    MYEGTEST\n    MYEGGANESH\n\n\n&amp;apos; or . = &amp;apos;\n     - Select TM Name -\n    ALL\n    MYEG\n    MYEGSE007371\n    MYEGZULKIFLY\n    MYEGBU003372\n    MYEGAZLINA79\n    MYEGSG003371\n    MYEGKB012371\n    MYEGIP004371\n    MYEGSI004374\n    MYEGME008371\n    MYEGTI004373\n    MYEGTA004372\n    MYEGJB812000\n    MYEGTM2009\n    MYEGAIZAACC\n    MYEGPROJECT1\n    MYEGFARAHRTX\n    MYEGPHOEBEACC\n    MYEGSURATATX\n    MYEGNADIARTX\n    MYEGIRARTXCC\n    MYEGLINARTX\n    MYEGCRRTX919\n    MYEGCRRTX273\n    MYEGCRRTX631\n    MYEGEYLACRTX\n    MYEGHUSNARTX\n    MYEGSHAHRRTX\n    MYEGCRRTX103\n    MYEGRTXPP\n    MYEGAZURACC\n    MYEGLIZARTX\n    MYEGTEST\n    MYEGGANESH\n\n\n&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418142</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select TM Name -    A&amp;apos; with value &amp;apos;MYEG&amp;apos; using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418351</millis>
+  <sequence>123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option at index &amp;apos;2&amp;apos; with value &amp;apos;MYEG&amp;apos; is selected  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418616</millis>
+  <sequence>124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;MYEG&amp;apos; are selected in object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/select_- Select TM Name -    A&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418617</millis>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418617</millis>
+  <sequence>126</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418618</millis>
+  <sequence>127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418622</millis>
+  <sequence>128</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418622</millis>
+  <sequence>129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418623</millis>
+  <sequence>130</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418623</millis>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate&amp;apos; located by &amp;apos;By.xpath: //input[@name = &amp;apos;dojo.filterGenDate&amp;apos; and @type = &amp;apos;text&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418661</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate&amp;apos; located by &amp;apos;By.xpath: //input[@name = &amp;apos;dojo.filterGenDate&amp;apos; and @type = &amp;apos;text&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418661</millis>
+  <sequence>133</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418701</millis>
+  <sequence>134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418702</millis>
+  <sequence>135</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate&amp;apos; located by &amp;apos;By.xpath: //input[@name = &amp;apos;dojo.filterGenDate&amp;apos; and @type = &amp;apos;text&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418716</millis>
+  <sequence>136</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate&amp;apos; located by &amp;apos;By.xpath: //input[@name = &amp;apos;dojo.filterGenDate&amp;apos; and @type = &amp;apos;text&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418716</millis>
+  <sequence>137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate&amp;apos; to value &amp;apos;02-Oct-2018&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418869</millis>
+  <sequence>138</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;02-Oct-2018&amp;apos; is set on object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418870</millis>
+  <sequence>139</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418870</millis>
+  <sequence>140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418870</millis>
+  <sequence>141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418876</millis>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418876</millis>
+  <sequence>143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418876</millis>
+  <sequence>144</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418877</millis>
+  <sequence>145</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto&amp;apos; located by &amp;apos;By.xpath: //input[@name = &amp;apos;dojo.filterGenDateto&amp;apos; and @type = &amp;apos;text&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418898</millis>
+  <sequence>146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto&amp;apos; located by &amp;apos;By.xpath: //input[@name = &amp;apos;dojo.filterGenDateto&amp;apos; and @type = &amp;apos;text&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418898</millis>
+  <sequence>147</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418932</millis>
+  <sequence>148</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418932</millis>
+  <sequence>149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto&amp;apos; located by &amp;apos;By.xpath: //input[@name = &amp;apos;dojo.filterGenDateto&amp;apos; and @type = &amp;apos;text&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418943</millis>
+  <sequence>150</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto&amp;apos; located by &amp;apos;By.xpath: //input[@name = &amp;apos;dojo.filterGenDateto&amp;apos; and @type = &amp;apos;text&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:18</date>
+  <millis>1538549418944</millis>
+  <sequence>151</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto&amp;apos; to value &amp;apos;02-Oct-2018&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419081</millis>
+  <sequence>152</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;02-Oct-2018&amp;apos; is set on object &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419082</millis>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419082</millis>
+  <sequence>154</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419083</millis>
+  <sequence>155</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419087</millis>
+  <sequence>156</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419087</millis>
+  <sequence>157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419092</millis>
+  <sequence>158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;button&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419112</millis>
+  <sequence>159</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input&amp;apos; located by &amp;apos;By.xpath: //input[@type = &amp;apos;button&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419113</millis>
+  <sequence>160</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419840</millis>
+  <sequence>161</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/input&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419841</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:19</date>
+  <millis>1538549419842</millis>
+  <sequence>163</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420357</millis>
+  <sequence>164</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Taking screenshot successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Ticket\\20181003_145002\\1538549419865.png</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420357</millis>
+  <sequence>165</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420357</millis>
+  <sequence>166</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420358</millis>
+  <sequence>167</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_reset&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420358</millis>
+  <sequence>168</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420358</millis>
+  <sequence>169</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420358</millis>
+  <sequence>170</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_reset&amp;apos; located by &amp;apos;By.xpath: //a[(text() = &amp;apos;reset&amp;apos; or . = &amp;apos;reset&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420392</millis>
+  <sequence>171</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_reset&amp;apos; located by &amp;apos;By.xpath: //a[(text() = &amp;apos;reset&amp;apos; or . = &amp;apos;reset&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420392</millis>
+  <sequence>172</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_reset&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420519</millis>
+  <sequence>173</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_reset&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420519</millis>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420519</millis>
+  <sequence>175</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420957</millis>
+  <sequence>176</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Taking screenshot successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Ticket\\20181003_145002\\1538549420520.png</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420958</millis>
+  <sequence>177</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420958</millis>
+  <sequence>178</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420959</millis>
+  <sequence>179</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_current date pending print T&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420961</millis>
+  <sequence>180</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420961</millis>
+  <sequence>181</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420961</millis>
+  <sequence>182</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_current date pending print T&amp;apos; located by &amp;apos;By.xpath: //a[(text() = &amp;apos;current date pending print Tickets&amp;apos; or . = &amp;apos;current date pending print Tickets&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420970</millis>
+  <sequence>183</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_current date pending print T&amp;apos; located by &amp;apos;By.xpath: //a[(text() = &amp;apos;current date pending print Tickets&amp;apos; or . = &amp;apos;current date pending print Tickets&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:20</date>
+  <millis>1538549420970</millis>
+  <sequence>184</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_current date pending print T&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:21</date>
+  <millis>1538549421619</millis>
+  <sequence>185</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_current date pending print T&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:21</date>
+  <millis>1538549421620</millis>
+  <sequence>186</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:21</date>
+  <millis>1538549421620</millis>
+  <sequence>187</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422016</millis>
+  <sequence>188</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Taking screenshot successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Ticket\\20181003_145002\\1538549421621.png</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422016</millis>
+  <sequence>189</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422017</millis>
+  <sequence>190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422017</millis>
+  <sequence>191</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_Logout&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422021</millis>
+  <sequence>192</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422021</millis>
+  <sequence>193</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422021</millis>
+  <sequence>194</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_Logout&amp;apos; located by &amp;apos;By.xpath: //a[@href = &amp;apos;../login/logout.action&amp;apos; and @title = &amp;apos;Logout&amp;apos; and (text() = &amp;apos;Logout&amp;apos; or . = &amp;apos;Logout&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422053</millis>
+  <sequence>195</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_Logout&amp;apos; located by &amp;apos;By.xpath: //a[@href = &amp;apos;../login/logout.action&amp;apos; and @title = &amp;apos;Logout&amp;apos; and (text() = &amp;apos;Logout&amp;apos; or . = &amp;apos;Logout&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422053</millis>
+  <sequence>196</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_Logout&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422462</millis>
+  <sequence>197</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_MyEG Services  List of Tickets/a_Logout&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422462</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422463</millis>
+  <sequence>199</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Logistics/Roles/CSO_ADMIN/Ticket</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:22</date>
+  <millis>1538549422463</millis>
+  <sequence>200</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Logistics/Roles/CSO_ADMIN/Ticket</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-10-03T14:50:23</date>
+  <millis>1538549423257</millis>
+  <sequence>201</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/CSO_ADMIN/Ticket</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
