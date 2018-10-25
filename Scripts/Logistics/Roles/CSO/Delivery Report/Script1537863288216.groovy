@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
@@ -25,12 +26,14 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://uat4.myeg.com.my/logistic/login/')
 
+'Click On User Name'
 WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'KISH2008')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
 
 WebUI.takeScreenshot()
 
+'Click On Password'
 WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
@@ -65,128 +68,143 @@ WebUI.takeScreenshot()
 'Click on LO Performance By Date    '
 WebUI.click(findTestObject('Page_MyEG Services  PERFORMANCE REP/a_LO Delivery Report By Date'))
 
-WebUI.setText(findTestObject('Page_MyEG Services  DELIVERY REPORT/input_dojo.from'), '01-Jan-2018')
+WebUI.setText(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.from (3)'), '01-Jan-2018')
 
-WebUI.setText(findTestObject('Page_MyEG Services  DELIVERY REPORT/input_dojo.to'), '30-Sep-2018')
+WebUI.setText(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.to (3)'), '30-Sep-2018')
 
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'LK', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'LK', true)
 
 WebUI.takeScreenshot()
 
 'Click on \'reset\' option\r\n'
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/a_reset'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/a_reset (4)'))
 
 'All the filled-in data should get erased when clicked on the reset link'
 WebUI.takeScreenshot()
 
 'without giving any inputs\r\n'
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Page_MyEG Services  DELIVERY REPORT/input_dojo.from'), '01-Jan-2018')
+WebUI.setText(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.from (3)'), '01-Jan-2018')
 
-WebUI.setText(findTestObject('Page_MyEG Services  DELIVERY REPORT/input_dojo.to'), '30-Sep-2018')
+WebUI.setText(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.to (3)'), '30-Sep-2018')
 
 'Click on Road Tax  '
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'LK', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'LK', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Insolvency'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'JM', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'JM', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Immigration'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'IM', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'IM', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Immigration Maid'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'MD', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'MD', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Immigration FW'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'FW', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'FW', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on CDL'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'CL', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'CL', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on 1MID'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), '1M', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    '1M', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Spanco Road Tax'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'SP', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'SP', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Legalisation'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'PT', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'PT', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Legalisation Delivery'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'PTD', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'PTD', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Roadtax SS'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'LKS', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'LKS', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on JPJ1M'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'JPJ1M', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'JPJ1M', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on IMI1M'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'IMI1M', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'IMI1M', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on ETMS'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'ET', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'ET', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/a_Delivery Report'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/a_Delivery Report (2)'))
 
 'Click on   LO Performance By Name'
 WebUI.click(findTestObject('Page_MyEG Services  PERFORMANCE REP/a_LO Delivery Report By Name'))
@@ -194,122 +212,140 @@ WebUI.click(findTestObject('Page_MyEG Services  PERFORMANCE REP/a_LO Delivery Re
 WebUI.takeScreenshot()
 
 'Click on \'reset\' option'
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/a_reset'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/a_reset (4)'))
 
 'All the filled-in data should get erased when clicked on the reset link'
 WebUI.takeScreenshot()
 
 'without giving any inputs'
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_- Select LO Name -    A'), '1942', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_- Select LO Name -    A_2'), 
+    '1942', true)
 
-WebUI.setText(findTestObject('Page_MyEG Services  DELIVERY REPORT/input_dojo.from'), '01-Jan-2018')
+WebUI.setText(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.from (3)'), '01-Jan-2018')
 
-WebUI.setText(findTestObject('Page_MyEG Services  DELIVERY REPORT/input_dojo.to'), '30-Sep-2018')
+WebUI.setText(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.to (3)'), '30-Sep-2018')
 
 'Click on Road Tax'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'LK', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'LK', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Insolvency'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'JM', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'JM', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Immigration'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'IM', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'IM', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Immigration Maid'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'MD', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'MD', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Immigration FW'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'FW', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'FW', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on CDL'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'CL', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'CL', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on 1MID'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), '1M', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    '1M', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Spanco Road Tax'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'SP', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'SP', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Legalisation'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'PT', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'PT', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Legalisation Delivery'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'PTD', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'PTD', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on Roadtax SS'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'LKS', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'LKS', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on JPJ1M'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'JPJ1M', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'JPJ1M', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on IMI1M'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'IMI1M', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'IMI1M', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
 'Click on ETMS\r\n'
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'), 'ET', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select -- (5)'), 
+    'ET', true)
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/input (4)'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/a_Logout'))
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
+
+'User should be logged out successfully'
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

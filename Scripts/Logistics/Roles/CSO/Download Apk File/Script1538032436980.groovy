@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
@@ -25,17 +26,53 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://uat4.myeg.com.my/logistic/login/')
 
-WebUI.setText(findTestObject('Object Repository/Page_MyEG Services  Logistic Report/input_j_username (2)'), 'KISH2008\t                                  ')
+'Click On Use Name'
+WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'KISH2008')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_MyEG Services  Logistic Report/input_j_password (2)'), 'aeHFOx8jV/A=')
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Logistic Report/input_submit (2)'))
+WebUI.takeScreenshot()
+
+'Click On Password'
+WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'Invalid Username&Password'
+WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'KISH2009')
+
+WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
+
+'It should display an error message'
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'valid Username&Password'
+WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'KISH2008')
+
+WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
+
+'It should display Login Page\r\n'
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Page_MyEG Services  List of Tickets/a_Download Apk File'))
 
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Logistic Report/a_mylogistics.apk'))
+
+WebUI.takeScreenshot()
+
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
+
+'User should be logged out successfully'
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

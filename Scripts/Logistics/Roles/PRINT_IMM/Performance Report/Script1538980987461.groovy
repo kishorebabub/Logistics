@@ -25,12 +25,14 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://uat4.myeg.com.my/logistic/login/')
 
+'Click On Username'
 WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'AJAY1965')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
 
 WebUI.takeScreenshot()
 
+'Click On Password'
 WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
@@ -347,8 +349,10 @@ WebUI.click(findTestObject('Object Repository/Page_MyEG Services  PERFORMANCE RE
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Page_MyEG Services  PERFORMANCE REP/a_Logout (2)'))
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
 
+'User should be logged out successfully'
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

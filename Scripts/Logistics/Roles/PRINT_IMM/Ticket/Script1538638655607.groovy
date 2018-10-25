@@ -25,6 +25,20 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://uat4.myeg.com.my/logistic/login/')
 
+'Click On User Name'
+WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'AJAY1964')
+
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'Click On Password'
+WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
 'Invalid Username & Password'
 WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'AJAY1964')
 
@@ -45,7 +59,10 @@ WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
 
 WebUI.takeScreenshot()
 
+'Click On Ticket'
 WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_Ticket'))
+
+WebUI.takeScreenshot()
 
 WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_- Select status -     P'), '2', true)
 
@@ -149,11 +166,17 @@ WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
 
 WebUI.takeScreenshot()
 
+'Click on \'reset\' option\r\n\r\n'
 WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_reset'))
 
+'All the filled-in data should get erased when clicked on the reset link\r\n'
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_Logout'))
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
+
+'User should be logged out successfully'
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

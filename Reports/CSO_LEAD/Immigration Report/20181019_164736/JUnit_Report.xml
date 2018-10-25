@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Immigration Report" time="37" tests="1" failures="0" errors="0">
+   <testsuite name="Immigration Report" tests="1" failures="0" errors="0" time="37" timestamp="2018-10-19 16:47:38" hostname="Owner - L13-IT-KISHORE.myeg.local" id="Test Suites/CSO_LEAD/Immigration Report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938865961.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938866953.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938868042.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938869899.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938870633.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938871376.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938871950.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938872421.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938873181.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938874903.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938875819.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938876892.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938877935.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938878895.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938879424.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938879935.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938880699.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938881595.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938882710.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938883613.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938884967.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938886049.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938887185.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938887712.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938888166.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938888863.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938889810.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938890886.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938891888.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938892942.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938894025.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938894768.png"/>
+         <property name="hostName" value="Owner - L13-IT-KISHORE.myeg.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.8.168"/>
+         <property name="sessionId" value="d0ed3de80e26b0d30b85e4b936deed97"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logistics/Roles/CSO_LEAD/Immigration Report" classname="Test Cases/Logistics/Roles/CSO_LEAD/Immigration Report" status="PASSED">
+         <system-out><![CDATA[2018-10-19 16:47:38 - [TEST_CASE][PASSED] - Test Cases/Logistics/Roles/CSO_LEAD/Immigration Report: Test Cases/Logistics/Roles/CSO_LEAD/Immigration Report
+
+2018-10-19 16:47:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-19 16:47:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-19 16:47:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-19 16:47:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-19 16:47:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-19 16:47:45 - [MESSAGE][PASSED] - Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-19 16:47:45 - [TEST_STEP][PASSED] - setText: Text 'NISH1931' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:47:45 - [MESSAGE][PASSED] - Text 'NISH1931' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:47:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:47:45 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938865961.png]]
+
+2018-10-19 16:47:46 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:47:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:47:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:47:46 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938866953.png]]
+
+2018-10-19 16:47:47 - [TEST_STEP][PASSED] - setText: Text 'NISH1932' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:47:47 - [MESSAGE][PASSED] - Text 'NISH1932' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:47:47 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:47:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:47:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:47:48 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938868042.png]]
+
+2018-10-19 16:47:48 - [TEST_STEP][PASSED] - setText: Text 'NISH1931' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:47:48 - [MESSAGE][PASSED] - Text 'NISH1931' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:47:48 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:47:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:47:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:47:49 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938869899.png]]
+
+2018-10-19 16:47:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Immigration Report' is clicked on
+
+2018-10-19 16:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Immigration Report' is clicked on
+
+2018-10-19 16:47:50 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938870633.png]]
+
+2018-10-19 16:47:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_Immigration Printing Assign' is clicked on
+
+2018-10-19 16:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_Immigration Printing Assign' is clicked on
+
+2018-10-19 16:47:51 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938871376.png]]
+
+2018-10-19 16:47:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_reset' is clicked on
+
+2018-10-19 16:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_reset' is clicked on
+
+2018-10-19 16:47:51 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938871950.png]]
+
+2018-10-19 16:47:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:52 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938872421.png]]
+
+2018-10-19 16:47:52 - [TEST_STEP][PASSED] - setText: Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:47:52 - [MESSAGE][PASSED] - Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:47:52 - [TEST_STEP][PASSED] - setText: Text '47000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:47:53 - [MESSAGE][PASSED] - Text '47000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:47:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:53 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938873181.png]]
+
+2018-10-19 16:47:53 - [TEST_STEP][PASSED] - setText: Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.from'
+
+2018-10-19 16:47:53 - [MESSAGE][PASSED] - Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.from'
+
+2018-10-19 16:47:53 - [TEST_STEP][PASSED] - setText: Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:47:53 - [MESSAGE][PASSED] - Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:47:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:54 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938874903.png]]
+
+2018-10-19 16:47:55 - [TEST_STEP][PASSED] - setText: Text '47000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:47:55 - [MESSAGE][PASSED] - Text '47000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:47:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:55 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938875819.png]]
+
+2018-10-19 16:47:56 - [TEST_STEP][PASSED] - setText: Text '##$$%' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:47:56 - [MESSAGE][PASSED] - Text '##$$%' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:47:56 - [TEST_STEP][PASSED] - setText: Text '&**&^' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:47:56 - [MESSAGE][PASSED] - Text '&**&^' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:47:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:56 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938876892.png]]
+
+2018-10-19 16:47:57 - [TEST_STEP][PASSED] - setText: Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:47:57 - [MESSAGE][PASSED] - Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:47:57 - [TEST_STEP][PASSED] - setText: Text '47000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:47:57 - [MESSAGE][PASSED] - Text '47000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:47:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:57 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938877935.png]]
+
+2018-10-19 16:47:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_Immigration Report' is clicked on
+
+2018-10-19 16:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_Immigration Report' is clicked on
+
+2018-10-19 16:47:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_Immigration Delivery perform' is clicked on
+
+2018-10-19 16:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_Immigration Delivery perform' is clicked on
+
+2018-10-19 16:47:58 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938878895.png]]
+
+2018-10-19 16:47:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_reset' is clicked on
+
+2018-10-19 16:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_reset' is clicked on
+
+2018-10-19 16:47:59 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:47:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938879424.png]]
+
+2018-10-19 16:47:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:47:59 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938879935.png]]
+
+2018-10-19 16:48:00 - [TEST_STEP][PASSED] - setText: Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:00 - [MESSAGE][PASSED] - Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:00 - [TEST_STEP][PASSED] - setText: Text '47000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:00 - [MESSAGE][PASSED] - Text '47000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:00 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938880699.png]]
+
+2018-10-19 16:48:01 - [TEST_STEP][PASSED] - setText: Text '01-Aug-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.from'
+
+2018-10-19 16:48:01 - [MESSAGE][PASSED] - Text '01-Aug-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.from'
+
+2018-10-19 16:48:01 - [TEST_STEP][PASSED] - setText: Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.to'
+
+2018-10-19 16:48:01 - [MESSAGE][PASSED] - Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.to'
+
+2018-10-19 16:48:01 - [TEST_STEP][PASSED] - setText: Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:01 - [MESSAGE][PASSED] - Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:01 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-19 16:48:01 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-19 16:48:01 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938881595.png]]
+
+2018-10-19 16:48:02 - [TEST_STEP][PASSED] - setText: Text '01-Aug-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.from'
+
+2018-10-19 16:48:02 - [MESSAGE][PASSED] - Text '01-Aug-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.from'
+
+2018-10-19 16:48:02 - [TEST_STEP][PASSED] - setText: Text '30-Aug-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.to'
+
+2018-10-19 16:48:02 - [MESSAGE][PASSED] - Text '30-Aug-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.to'
+
+2018-10-19 16:48:02 - [TEST_STEP][PASSED] - setText: Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:02 - [MESSAGE][PASSED] - Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:02 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938882710.png]]
+
+2018-10-19 16:48:03 - [TEST_STEP][PASSED] - setText: Text '49000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:03 - [MESSAGE][PASSED] - Text '49000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:03 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938883613.png]]
+
+2018-10-19 16:48:04 - [TEST_STEP][PASSED] - setText: Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:04 - [MESSAGE][PASSED] - Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:04 - [TEST_STEP][PASSED] - setText: Text '49000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:04 - [MESSAGE][PASSED] - Text '49000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:04 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938884967.png]]
+
+2018-10-19 16:48:05 - [TEST_STEP][PASSED] - setText: Text '#$%^&' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:05 - [MESSAGE][PASSED] - Text '#$%^&' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:05 - [TEST_STEP][PASSED] - setText: Text '@##$%' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:05 - [MESSAGE][PASSED] - Text '@##$%' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:06 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938886049.png]]
+
+2018-10-19 16:48:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_Immigration Report' is clicked on
+
+2018-10-19 16:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_Immigration Report' is clicked on
+
+2018-10-19 16:48:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_Immigration Delivery perform_1' is clicked on
+
+2018-10-19 16:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_Immigration Delivery perform_1' is clicked on
+
+2018-10-19 16:48:07 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938887185.png]]
+
+2018-10-19 16:48:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_reset' is clicked on
+
+2018-10-19 16:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_reset' is clicked on
+
+2018-10-19 16:48:07 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938887712.png]]
+
+2018-10-19 16:48:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:08 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938888166.png]]
+
+2018-10-19 16:48:08 - [TEST_STEP][PASSED] - setText: Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:08 - [MESSAGE][PASSED] - Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:08 - [TEST_STEP][PASSED] - setText: Text '47000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:08 - [MESSAGE][PASSED] - Text '47000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:08 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938888863.png]]
+
+2018-10-19 16:48:09 - [TEST_STEP][PASSED] - setText: Text '01-Aug-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.from'
+
+2018-10-19 16:48:09 - [MESSAGE][PASSED] - Text '01-Aug-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.from'
+
+2018-10-19 16:48:09 - [TEST_STEP][PASSED] - setText: Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.to'
+
+2018-10-19 16:48:09 - [MESSAGE][PASSED] - Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.to'
+
+2018-10-19 16:48:09 - [TEST_STEP][PASSED] - setText: Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:09 - [MESSAGE][PASSED] - Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:09 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-19 16:48:09 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-19 16:48:09 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938889810.png]]
+
+2018-10-19 16:48:10 - [TEST_STEP][PASSED] - setText: Text '01-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.from'
+
+2018-10-19 16:48:10 - [MESSAGE][PASSED] - Text '01-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.from'
+
+2018-10-19 16:48:10 - [TEST_STEP][PASSED] - setText: Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.to'
+
+2018-10-19 16:48:10 - [MESSAGE][PASSED] - Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_dojo.to'
+
+2018-10-19 16:48:10 - [TEST_STEP][PASSED] - setText: Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:10 - [MESSAGE][PASSED] - Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:10 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938890886.png]]
+
+2018-10-19 16:48:11 - [TEST_STEP][PASSED] - setText: Text '49000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:11 - [MESSAGE][PASSED] - Text '49000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:11 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938891888.png]]
+
+2018-10-19 16:48:12 - [TEST_STEP][PASSED] - setText: Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:12 - [MESSAGE][PASSED] - Text '46000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:12 - [TEST_STEP][PASSED] - setText: Text '49000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:12 - [MESSAGE][PASSED] - Text '49000' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:12 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938892942.png]]
+
+2018-10-19 16:48:13 - [TEST_STEP][PASSED] - setText: Text '%^^%%' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:13 - [MESSAGE][PASSED] - Text '%^^%%' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcstart'
+
+2018-10-19 16:48:13 - [TEST_STEP][PASSED] - setText: Text '$%^&&' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:13 - [MESSAGE][PASSED] - Text '$%^&&' is set on object 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input_pcend'
+
+2018-10-19 16:48:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/input' is clicked on
+
+2018-10-19 16:48:14 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938894025.png]]
+
+2018-10-19 16:48:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Insert title he/a_Logout' is clicked on
+
+2018-10-19 16:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Insert title he/a_Logout' is clicked on
+
+2018-10-19 16:48:14 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:48:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_LEAD\\Immigration Report\\20181019_164736\\1539938894768.png]]
+
+2018-10-19 16:48:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-19 16:48:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-19 16:47:38 - [TEST_SUITE][PASSED] - Immigration Report: Test Cases/Logistics/Roles/CSO_LEAD/Immigration Report]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

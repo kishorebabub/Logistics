@@ -63,11 +63,16 @@ WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_User MGMT'))
 'Should display an error message \'Invalid Access\''
 WebUI.takeScreenshot()
 
+'Click On BACK'
 WebUI.click(findTestObject('Page_/a_BACK'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_Logout'))
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
+
+'User should be logged out successfully'
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

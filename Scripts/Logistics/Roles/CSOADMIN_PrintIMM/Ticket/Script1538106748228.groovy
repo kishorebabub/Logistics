@@ -25,58 +25,198 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://uat4.myeg.com.my/logistic/login/')
 
+'Click On Username'
+WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), ' AGENT')
+
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'Click On Password'
+WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'Invalid Username&Password'
+WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), ' AGENT')
+
+WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'Vf1GAbowvJ0=')
+
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+'It should display an error message'
+WebUI.takeScreenshot()
+
+'valid Username&Password'
 WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), ' AGENT')
 
 WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
 
-WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_Ticket'))
-
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_- Select status -     P'), '4', true)
-
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'LK', true)
-
-WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/img_dojoComboBox'))
-
-WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/div_ABDUL AZIZ BIN MD ALI'))
-
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --    _1'), '1', true)
-
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_- Select area -    Air'), 'Air Baloi', 
-    true)
-
-WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_filterTicket'), '23456788887')
-
-WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_filterIdno'), 'WEFWEF4')
-
-WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_dojo.filterRequestDate'), '01-Sep-2018')
-
-WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_dojo.filterGenDate'), '30-Sep-2018')
-
-WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto'), '30-Sep-2018')
-
-WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_filterServiceId'), '12312323')
-
-WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_filterFpostcode'), '12323')
-
-WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_filterTpostcode'), '23323')
-
-WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
-
+'It should display  Login Page'
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_reset'))
+'Click On Ticket'
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_Ticket'))
 
+'Tickets page should be displayed'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_current date pending print T'))
 
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
 WebUI.takeScreenshot()
+
+'Click on \'reset\' option'
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_reset'))
+
+'All the filled-in data should get erased when clicked on the reset link'
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_- Select status -     P'), '4', true)
+
+'Click on Road Tax '
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'LK', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/img_dojoComboBox'))
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/div_ABDUL ASAD ABDUS SAKUR'))
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --    _1'), '1', true)
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_- Select area -    Air'), 'Bandar Pusat', 
+    true)
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_- Select TM Name -    A'), 'MYEG', 
+    true)
+
+WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_dojo.filterGenDate'), '19-Oct-2018')
+
+WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto'), '19-Oct-2018')
+
+WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_filterFpostcode'), '46000')
+
+WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_filterTpostcode'), '49000')
 
 WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_Logout'))
+'Click on Insolvency'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'JM', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on Immigration'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'IM', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on Immigration Maid'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'MD', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on Immigration FW'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'FW', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on CDL'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'CL', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on 1MID'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), '1M', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on Spanco Road Tax'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'SP', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on Legalisation'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'PT', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on Legalisation Delivery'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'PTD', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on Roadtax SS'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'LKS', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click On Pati Letter'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'PTL', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on JPJ1M'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'JPJ1M', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on IMI1M\r\n'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'IMI1M', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Click on ETMS'
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --'), 'ET', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_filterFpostcode'), '$%^&&')
+
+WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_filterTpostcode'), '!@#$$')
+
+WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
+
+WebUI.takeScreenshot()
+
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
+
+'User should be logged out successfully'
+WebUI.takeScreenshot()
+
+WebUI.closeBrowser()
 

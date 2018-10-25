@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Delivery Report" time="84" tests="1" failures="0" errors="0">
+   <testsuite name="Delivery Report" tests="1" failures="0" errors="0" time="84" timestamp="2018-10-19 12:29:45" hostname="Owner - L13-IT-KISHORE.myeg.local" id="Test Suites/CSO_ADMIN/Delivery Report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923393542.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923394618.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923395691.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923397304.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923398092.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923399754.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923400252.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923400752.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923402221.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923403305.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923404453.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923405623.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923406800.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923407993.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923409107.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923410299.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923411562.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923412803.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923413990.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923415233.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923416450.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923417653.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923418760.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923419296.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923419835.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923451408.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923452752.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923454063.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923455288.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923456556.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923457857.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923459085.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923460430.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923461704.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923463059.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923464358.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923465753.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923467066.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923468367.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923469092.png"/>
+         <property name="hostName" value="Owner - L13-IT-KISHORE.myeg.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.8.168"/>
+         <property name="sessionId" value="c197a7bfb27ca11bdb25bb8d1cb50767"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logistics/Roles/CSO_ADMIN/Delivery Report" classname="Test Cases/Logistics/Roles/CSO_ADMIN/Delivery Report" status="PASSED">
+         <system-out><![CDATA[2018-10-19 12:29:46 - [TEST_CASE][PASSED] - Test Cases/Logistics/Roles/CSO_ADMIN/Delivery Report: Test Cases/Logistics/Roles/CSO_ADMIN/Delivery Report
+
+2018-10-19 12:29:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-19 12:29:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-19 12:29:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-19 12:29:52 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-19 12:29:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-19 12:29:52 - [MESSAGE][PASSED] - Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-19 12:29:52 - [TEST_STEP][PASSED] - setText: Text 'AKMA1766' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 12:29:53 - [MESSAGE][PASSED] - Text 'AKMA1766' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 12:29:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 12:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 12:29:53 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:29:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923393542.png]]
+
+2018-10-19 12:29:53 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 12:29:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 12:29:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 12:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 12:29:54 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:29:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923394618.png]]
+
+2018-10-19 12:29:55 - [TEST_STEP][PASSED] - setText: Text 'AKMA1767' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 12:29:55 - [MESSAGE][PASSED] - Text 'AKMA1767' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 12:29:55 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 12:29:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 12:29:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 12:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 12:29:55 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:29:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923395691.png]]
+
+2018-10-19 12:29:56 - [TEST_STEP][PASSED] - setText: Text 'AKMA1766' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 12:29:56 - [MESSAGE][PASSED] - Text 'AKMA1766' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 12:29:56 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 12:29:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 12:29:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 12:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 12:29:57 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:29:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923397304.png]]
+
+2018-10-19 12:29:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Delivery Report' is clicked on
+
+2018-10-19 12:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Delivery Report' is clicked on
+
+2018-10-19 12:29:58 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:29:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923398092.png]]
+
+2018-10-19 12:29:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_LO Delivery Report By Date' is clicked on
+
+2018-10-19 12:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_LO Delivery Report By Date' is clicked on
+
+2018-10-19 12:29:58 - [TEST_STEP][PASSED] - setText: Text '01-Jan-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.from'
+
+2018-10-19 12:29:59 - [MESSAGE][PASSED] - Text '01-Jan-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.from'
+
+2018-10-19 12:29:59 - [TEST_STEP][PASSED] - setText: Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.to'
+
+2018-10-19 12:29:59 - [MESSAGE][PASSED] - Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.to'
+
+2018-10-19 12:29:59 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:29:59 - [MESSAGE][PASSED] - All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:29:59 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923399754.png]]
+
+2018-10-19 12:30:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/a_reset' is clicked on
+
+2018-10-19 12:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/a_reset' is clicked on
+
+2018-10-19 12:30:00 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923400252.png]]
+
+2018-10-19 12:30:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:00 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923400752.png]]
+
+2018-10-19 12:30:01 - [TEST_STEP][PASSED] - setText: Text '01-Jan-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.from'
+
+2018-10-19 12:30:01 - [MESSAGE][PASSED] - Text '01-Jan-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.from'
+
+2018-10-19 12:30:01 - [TEST_STEP][PASSED] - setText: Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.to'
+
+2018-10-19 12:30:01 - [MESSAGE][PASSED] - Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.to'
+
+2018-10-19 12:30:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:01 - [MESSAGE][PASSED] - All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:02 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923402221.png]]
+
+2018-10-19 12:30:02 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'JM' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:02 - [MESSAGE][PASSED] - All options with value 'JM' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:03 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923403305.png]]
+
+2018-10-19 12:30:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IM' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:04 - [MESSAGE][PASSED] - All options with value 'IM' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:04 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923404453.png]]
+
+2018-10-19 12:30:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'MD' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:05 - [MESSAGE][PASSED] - All options with value 'MD' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:05 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923405623.png]]
+
+2018-10-19 12:30:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FW' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:06 - [MESSAGE][PASSED] - All options with value 'FW' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:06 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923406800.png]]
+
+2018-10-19 12:30:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CL' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:07 - [MESSAGE][PASSED] - All options with value 'CL' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:07 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923407993.png]]
+
+2018-10-19 12:30:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:08 - [MESSAGE][PASSED] - All options with value '1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:09 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923409107.png]]
+
+2018-10-19 12:30:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'SP' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:09 - [MESSAGE][PASSED] - All options with value 'SP' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:10 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923410299.png]]
+
+2018-10-19 12:30:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PT' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:11 - [MESSAGE][PASSED] - All options with value 'PT' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:11 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923411562.png]]
+
+2018-10-19 12:30:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PTD' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:12 - [MESSAGE][PASSED] - All options with value 'PTD' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:12 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923412803.png]]
+
+2018-10-19 12:30:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LKS' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:13 - [MESSAGE][PASSED] - All options with value 'LKS' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:13 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923413990.png]]
+
+2018-10-19 12:30:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'JPJ1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:14 - [MESSAGE][PASSED] - All options with value 'JPJ1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:15 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923415233.png]]
+
+2018-10-19 12:30:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IMI1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:16 - [MESSAGE][PASSED] - All options with value 'IMI1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:16 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923416450.png]]
+
+2018-10-19 12:30:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ET' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:17 - [MESSAGE][PASSED] - All options with value 'ET' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:17 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923417653.png]]
+
+2018-10-19 12:30:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/a_Delivery Report' is clicked on
+
+2018-10-19 12:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/a_Delivery Report' is clicked on
+
+2018-10-19 12:30:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_LO Delivery Report By Name' is clicked on
+
+2018-10-19 12:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  PERFORMANCE REP/a_LO Delivery Report By Name' is clicked on
+
+2018-10-19 12:30:18 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923418760.png]]
+
+2018-10-19 12:30:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/a_reset' is clicked on
+
+2018-10-19 12:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/a_reset' is clicked on
+
+2018-10-19 12:30:19 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923419296.png]]
+
+2018-10-19 12:30:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:19 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923419835.png]]
+
+2018-10-19 12:30:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1942' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_- Select LO Name -    A_2'  using regular expression
+
+2018-10-19 12:30:49 - [MESSAGE][PASSED] - All options with value '1942' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_- Select LO Name -    A_2'  using regular expression
+
+2018-10-19 12:30:49 - [TEST_STEP][PASSED] - setText: Text '01-Jan-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.from'
+
+2018-10-19 12:30:49 - [MESSAGE][PASSED] - Text '01-Jan-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.from'
+
+2018-10-19 12:30:49 - [TEST_STEP][PASSED] - setText: Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.to'
+
+2018-10-19 12:30:50 - [MESSAGE][PASSED] - Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input_dojo.to'
+
+2018-10-19 12:30:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:50 - [MESSAGE][PASSED] - All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:51 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923451408.png]]
+
+2018-10-19 12:30:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'JM' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:52 - [MESSAGE][PASSED] - All options with value 'JM' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:52 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923452752.png]]
+
+2018-10-19 12:30:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IM' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:53 - [MESSAGE][PASSED] - All options with value 'IM' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:54 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923454063.png]]
+
+2018-10-19 12:30:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'MD' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:54 - [MESSAGE][PASSED] - All options with value 'MD' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:55 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923455288.png]]
+
+2018-10-19 12:30:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FW' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:56 - [MESSAGE][PASSED] - All options with value 'FW' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:56 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923456556.png]]
+
+2018-10-19 12:30:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CL' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:57 - [MESSAGE][PASSED] - All options with value 'CL' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:57 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923457857.png]]
+
+2018-10-19 12:30:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:58 - [MESSAGE][PASSED] - All options with value '1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:30:59 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:30:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923459085.png]]
+
+2018-10-19 12:30:59 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'SP' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:59 - [MESSAGE][PASSED] - All options with value 'SP' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:30:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:00 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:31:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923460430.png]]
+
+2018-10-19 12:31:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PT' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:01 - [MESSAGE][PASSED] - All options with value 'PT' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:01 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:31:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923461704.png]]
+
+2018-10-19 12:31:02 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PTD' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:02 - [MESSAGE][PASSED] - All options with value 'PTD' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:03 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:31:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923463059.png]]
+
+2018-10-19 12:31:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LKS' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:03 - [MESSAGE][PASSED] - All options with value 'LKS' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:04 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:31:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923464358.png]]
+
+2018-10-19 12:31:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'JPJ1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:05 - [MESSAGE][PASSED] - All options with value 'JPJ1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:05 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:31:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923465753.png]]
+
+2018-10-19 12:31:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IMI1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:06 - [MESSAGE][PASSED] - All options with value 'IMI1M' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:07 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:31:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923467066.png]]
+
+2018-10-19 12:31:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ET' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:07 - [MESSAGE][PASSED] - All options with value 'ET' are selected in object 'Object Repository/Page_MyEG Services  DELIVERY REPORT/select_-- Please Select --'  using regular expression
+
+2018-10-19 12:31:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  DELIVERY REPORT/input' is clicked on
+
+2018-10-19 12:31:08 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:31:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923468367.png]]
+
+2018-10-19 12:31:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Insert title he/a_Logout' is clicked on
+
+2018-10-19 12:31:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Insert title he/a_Logout' is clicked on
+
+2018-10-19 12:31:09 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 12:31:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN\\Delivery Report\\20181019_122943\\1539923469092.png]]
+
+2018-10-19 12:31:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-19 12:31:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-19 12:29:45 - [TEST_SUITE][PASSED] - Delivery Report: Test Cases/Logistics/Roles/CSO_ADMIN/Delivery Report]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

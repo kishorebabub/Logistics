@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
@@ -25,12 +26,14 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://uat4.myeg.com.my/logistic/login/')
 
+'Click On Usename'
 WebUI.setText(findTestObject('Object Repository/Page_MyEG Services  Logistic Report/input_j_username (5)'), 'KISH2008')
 
 WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Logistic Report/input_submit (5)'))
 
 WebUI.takeScreenshot()
 
+'Click On Password'
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_MyEG Services  Logistic Report/input_j_password (5)'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Logistic Report/input_submit (5)'))
@@ -204,7 +207,13 @@ WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  PERFORMANCE REP/a_Logout'))
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
+
+'User should be logged out successfully'
+WebUI.takeScreenshot()
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
@@ -25,13 +26,44 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://uat4.myeg.com.my/logistic/login/')
 
+'Click On Username'
 WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'NISH1931')
 
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'Click Password'
 WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
 
+WebUI.takeScreenshot()
+
+'Invalid Username&Password'
+WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'NISH1933')
+
+WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
+
+'It should display an error message'
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'valid Username&Password'
+WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'NISH1931')
+
+WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
+
+'It should display Login Page\r\n'
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'Click On Verify Record'
 WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_Verify Record'))
+
+WebUI.takeScreenshot()
 
 'without giving any inputs'
 WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
@@ -138,11 +170,17 @@ WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
 
 WebUI.takeScreenshot()
 
+'Click on \'reset\' option\r\n\r\n\r\n'
 WebUI.click(findTestObject('Page_MyEG Services  Verify Records/a_reset'))
 
+'All the filled-in data should get erased when clicked on the reset link'
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  Verify Records/a_Logout'))
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
+
+'User should be logged out successfully'
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

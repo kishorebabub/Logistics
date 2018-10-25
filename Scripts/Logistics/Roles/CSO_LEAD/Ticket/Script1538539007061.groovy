@@ -28,25 +28,44 @@ WebUI.takeScreenshot()
 
 WebUI.navigateToUrl('http://uat4.myeg.com.my/logistic/login/')
 
+'Click On Username'
 WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'NISH1931')
-
-WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
 
-'Invalid Login Credentials\r\n'
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'NISH1931')
-
+'Click On Password'
 WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
 
-'valid Login Credentials'
 WebUI.takeScreenshot()
 
+'Invalid Username&Password'
+WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'NISH1933')
+
+WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
+
+'It should display an error message'
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'valid Username&Password'
+WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'NISH1931')
+
+WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
+
+'It should display Login Page\r\n'
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'Click On Ticket'
 WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_Ticket'))
+
+WebUI.takeScreenshot()
 
 WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_- Select status -     P'), '2', true)
 
@@ -54,25 +73,35 @@ WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/se
 
 WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_-- Please Select --    _1'), '1', true)
 
-WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_dojo.filterGenDate'), '03-Oct-2018')
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_- Select area -    Air'), 'Bandar Pusat', 
+    true)
 
-WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto'), '03-Oct-2018')
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  List of Tickets/select_- Select TM Name -    A'), 'MYEG', 
+    true)
+
+WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_dojo.filterGenDate'), '02-Oct-2018')
+
+WebUI.setText(findTestObject('Page_MyEG Services  List of Tickets/input_dojo.filterGenDateto'), '02-Oct-2018')
 
 WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
 
 WebUI.takeScreenshot()
 
+'Click On Reset'
 WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_reset'))
 
+'All the filled-in data should get erased when clicked on the reset link'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_current date pending print T'))
 
-WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/input'))
-
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_Logout'))
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
+
+'User should be logged out successfully'
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

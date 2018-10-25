@@ -25,12 +25,14 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://uat4.myeg.com.my/logistic/login/')
 
+'Click On User Name'
 WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'KISH2008')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
 
 WebUI.takeScreenshot()
 
+'Cick On Password'
 WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
@@ -63,11 +65,16 @@ WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_User MGMT'))
 'Should display an error message \'Invalid Access\''
 WebUI.takeScreenshot()
 
+'Click On Back'
 WebUI.click(findTestObject('Page_/a_BACK'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_Logout'))
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
+
+'User should be logged out successfully'
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

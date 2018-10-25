@@ -18,17 +18,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://uat4.myeg.com.my/logistic/login/')
 
+'Click On Username'
 WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'AJAY1965')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
 
 WebUI.takeScreenshot()
 
+'Click On Password'
 WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
@@ -202,8 +207,8 @@ WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
 
 WebUI.takeScreenshot()
 
-WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  DELIVERY REPORT/select_- Select LO Name -    A'), '1942', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_MyEG Services  DELIVERY REPORT/select_- Select LO Name -    A_2'), 
+    '1942', true)
 
 WebUI.setText(findTestObject('Page_MyEG Services  DELIVERY REPORT/input_dojo.from'), '01-Jan-2018')
 
@@ -307,8 +312,10 @@ WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/input'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  DELIVERY REPORT/a_Logout'))
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
 
+'User should be logged out successfully'
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

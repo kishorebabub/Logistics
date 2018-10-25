@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Change Password" time="15" tests="1" failures="0" errors="0">
+   <testsuite name="Change Password" tests="1" failures="0" errors="0" time="15" timestamp="2018-10-19 16:53:10" hostname="Owner - L13-IT-KISHORE.myeg.local" id="Test Suites/PRINT_IMM/Change Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939198324.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939199390.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939200404.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939202005.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939203205.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939204340.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939205108.png"/>
+         <property name="hostName" value="Owner - L13-IT-KISHORE.myeg.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.8.168"/>
+         <property name="sessionId" value="8a80791e885d0aa5bb439164df8602ef"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logistics/Roles/PRINT_IMM/Change Password" classname="Test Cases/Logistics/Roles/PRINT_IMM/Change Password" status="PASSED">
+         <system-out><![CDATA[2018-10-19 16:53:10 - [TEST_CASE][PASSED] - Test Cases/Logistics/Roles/PRINT_IMM/Change Password: Test Cases/Logistics/Roles/PRINT_IMM/Change Password
+
+2018-10-19 16:53:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-19 16:53:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-19 16:53:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-19 16:53:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-19 16:53:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-19 16:53:17 - [MESSAGE][PASSED] - Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-19 16:53:17 - [TEST_STEP][PASSED] - setText: Text 'AJAY1965' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:53:17 - [MESSAGE][PASSED] - Text 'AJAY1965' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:53:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:18 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:53:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939198324.png]]
+
+2018-10-19 16:53:18 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:53:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:53:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:19 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:53:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939199390.png]]
+
+2018-10-19 16:53:19 - [TEST_STEP][PASSED] - setText: Text 'AJAY1964' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:53:19 - [MESSAGE][PASSED] - Text 'AJAY1964' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:53:19 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:53:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:53:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:20 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:53:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939200404.png]]
+
+2018-10-19 16:53:20 - [TEST_STEP][PASSED] - setText: Text 'AJAY1965' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:53:20 - [MESSAGE][PASSED] - Text 'AJAY1965' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 16:53:20 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:53:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 16:53:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:22 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:53:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939202005.png]]
+
+2018-10-19 16:53:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/a_Change Password' is clicked on
+
+2018-10-19 16:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/a_Change Password' is clicked on
+
+2018-10-19 16:53:22 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_old_password'
+
+2018-10-19 16:53:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_old_password'
+
+2018-10-19 16:53:22 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_new_password'
+
+2018-10-19 16:53:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_new_password'
+
+2018-10-19 16:53:23 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_renew_password'
+
+2018-10-19 16:53:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_renew_password'
+
+2018-10-19 16:53:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:23 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:53:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939203205.png]]
+
+2018-10-19 16:53:23 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_old_password'
+
+2018-10-19 16:53:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_old_password'
+
+2018-10-19 16:53:23 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_new_password'
+
+2018-10-19 16:53:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_new_password'
+
+2018-10-19 16:53:23 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_renew_password'
+
+2018-10-19 16:53:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_renew_password'
+
+2018-10-19 16:53:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 16:53:24 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:53:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939204340.png]]
+
+2018-10-19 16:53:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Insert title he/a_Logout' is clicked on
+
+2018-10-19 16:53:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Insert title he/a_Logout' is clicked on
+
+2018-10-19 16:53:25 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 16:53:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\PRINT_IMM\\Change Password\\20181019_165308\\1539939205108.png]]
+
+2018-10-19 16:53:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-19 16:53:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-19 16:53:10 - [TEST_SUITE][PASSED] - Change Password: Test Cases/Logistics/Roles/PRINT_IMM/Change Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

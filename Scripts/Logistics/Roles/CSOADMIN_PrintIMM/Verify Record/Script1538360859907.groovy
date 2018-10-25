@@ -25,19 +25,155 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://uat4.myeg.com.my/logistic/login/')
 
+'Click On Username'
 WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'AGENT')
 
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'Click On Password'
 WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
 
+WebUI.takeScreenshot()
+
+'Invalid Username&Password'
+WebUI.setText(findTestObject('Page_MyEG Services  Logistic Report/input_j_username'), 'AGENT1234')
+
+WebUI.setEncryptedText(findTestObject('Page_MyEG Services  Logistic Report/input_j_password'), 'aeHFOx8jV/A=')
+
+'It should display an error message'
+WebUI.click(findTestObject('Page_MyEG Services  Logistic Report/input_submit'))
+
+WebUI.takeScreenshot()
+
+'valid Username&Password'
+WebUI.setText(findTestObject('Object Repository/Page_MyEG Services  Logistic Report/input_j_username (4)'), 'AGENT')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_MyEG Services  Logistic Report/input_j_password (4)'), 'aeHFOx8jV/A=')
+
+'It should display Login Page'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Logistic Report/input_submit (4)'))
+
+WebUI.takeScreenshot()
+
+'Click on Verify Records'
 WebUI.click(findTestObject('Page_MyEG Services  List of Tickets/a_Verify Record'))
+
+'Verify Records page should be displayed'
+WebUI.takeScreenshot()
+
+'without giving any inputs'
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
 
 WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'LK', true)
 
-WebUI.setText(findTestObject('Page_MyEG Services  Verify Records/input_dojo.fromdt'), '01-Aug-2018')
+WebUI.setText(findTestObject('Page_MyEG Services  Verify Records/input_dojo.fromdt'), '01-Jan-2018')
 
 WebUI.setText(findTestObject('Page_MyEG Services  Verify Records/input_dojo.todt'), '30-Sep-2018')
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select mode -     Man'), 'auto', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'LKS', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'JM', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'IM', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'MD', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'FW', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'CN', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'CL', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), '1M', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'SP', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'PK', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'PT', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'PTL', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'JPJ1M', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'IMI1M', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'ET', true)
+
+WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select mode -     Man'), 'manual', 
+    true)
+
+WebUI.selectOptionByValue(findTestObject('Page_MyEG Services  Verify Records/select_- Select Service -'), 'LK', true)
 
 WebUI.click(findTestObject('Page_MyEG Services  Verify Records/input'))
 
@@ -137,5 +273,11 @@ WebUI.click(findTestObject('Page_MyEG Services  Verify Records/a_reset'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_MyEG Services  Verify Records/a_Logout'))
+'Clik On Logout'
+WebUI.click(findTestObject('Object Repository/Page_MyEG Services  Insert title he/a_Logout'))
+
+'User should be logged out successfully'
+WebUI.takeScreenshot()
+
+WebUI.closeBrowser()
 

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify Record" time="74" tests="1" failures="0" errors="0">
+   <testsuite name="Verify Record" tests="1" failures="0" errors="0" time="74" timestamp="2018-10-19 15:22:57" hostname="Owner - L13-IT-KISHORE.myeg.local" id="Test Suites/CSO_ADMIN_PrintIMM/Verify Record">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933788068.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933789126.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933790213.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933791823.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933792639.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933793182.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933797259.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933799098.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933800861.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933802723.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933804289.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933806090.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933807887.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933809667.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933811423.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933813322.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933815241.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933817194.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933819403.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933821232.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933822979.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933824699.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933826244.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933827808.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933829557.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933831103.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933832643.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933834306.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933835910.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933837484.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933839275.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933840899.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933842612.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933844322.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933845924.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933847518.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933849179.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933849687.png, C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933850344.png"/>
+         <property name="hostName" value="Owner - L13-IT-KISHORE.myeg.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.8.168"/>
+         <property name="sessionId" value="6266788d545905846085e62f51376d28"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logistics/Roles/CSOADMIN_PrintIMM/Verify Record" classname="Test Cases/Logistics/Roles/CSOADMIN_PrintIMM/Verify Record" status="PASSED">
+         <system-out><![CDATA[2018-10-19 15:22:57 - [TEST_CASE][PASSED] - Test Cases/Logistics/Roles/CSOADMIN_PrintIMM/Verify Record: Test Cases/Logistics/Roles/CSOADMIN_PrintIMM/Verify Record
+
+2018-10-19 15:22:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-19 15:23:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-19 15:23:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-19 15:23:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-19 15:23:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-19 15:23:07 - [MESSAGE][PASSED] - Navigate to 'http://uat4.myeg.com.my/logistic/login/' successfully
+
+2018-10-19 15:23:07 - [TEST_STEP][PASSED] - setText: Text 'AGENT' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 15:23:07 - [MESSAGE][PASSED] - Text 'AGENT' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 15:23:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 15:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 15:23:08 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933788068.png]]
+
+2018-10-19 15:23:08 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 15:23:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 15:23:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 15:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 15:23:09 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933789126.png]]
+
+2018-10-19 15:23:09 - [TEST_STEP][PASSED] - setText: Text 'AGENT1234' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 15:23:09 - [MESSAGE][PASSED] - Text 'AGENT1234' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username'
+
+2018-10-19 15:23:09 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 15:23:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password'
+
+2018-10-19 15:23:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 15:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit' is clicked on
+
+2018-10-19 15:23:10 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933790213.png]]
+
+2018-10-19 15:23:10 - [TEST_STEP][PASSED] - setText: Text 'AGENT' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username (4)'
+
+2018-10-19 15:23:10 - [MESSAGE][PASSED] - Text 'AGENT' is set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_username (4)'
+
+2018-10-19 15:23:10 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password (4)'
+
+2018-10-19 15:23:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_MyEG Services  Logistic Report/input_j_password (4)'
+
+2018-10-19 15:23:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit (4)' is clicked on
+
+2018-10-19 15:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Logistic Report/input_submit (4)' is clicked on
+
+2018-10-19 15:23:11 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933791823.png]]
+
+2018-10-19 15:23:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Verify Record' is clicked on
+
+2018-10-19 15:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  List of Tickets/a_Verify Record' is clicked on
+
+2018-10-19 15:23:12 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933792639.png]]
+
+2018-10-19 15:23:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:13 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933793182.png]]
+
+2018-10-19 15:23:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:13 - [MESSAGE][PASSED] - All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:13 - [TEST_STEP][PASSED] - setText: Text '01-Jan-2018' is set on object 'Object Repository/Page_MyEG Services  Verify Records/input_dojo.fromdt'
+
+2018-10-19 15:23:14 - [MESSAGE][PASSED] - Text '01-Jan-2018' is set on object 'Object Repository/Page_MyEG Services  Verify Records/input_dojo.fromdt'
+
+2018-10-19 15:23:14 - [TEST_STEP][PASSED] - setText: Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  Verify Records/input_dojo.todt'
+
+2018-10-19 15:23:14 - [MESSAGE][PASSED] - Text '30-Sep-2018' is set on object 'Object Repository/Page_MyEG Services  Verify Records/input_dojo.todt'
+
+2018-10-19 15:23:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'auto' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select mode -     Man'  using regular expression
+
+2018-10-19 15:23:14 - [MESSAGE][PASSED] - All options with value 'auto' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select mode -     Man'  using regular expression
+
+2018-10-19 15:23:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LKS' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:16 - [MESSAGE][PASSED] - All options with value 'LKS' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:17 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933797259.png]]
+
+2018-10-19 15:23:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'JM' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:18 - [MESSAGE][PASSED] - All options with value 'JM' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:19 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933799098.png]]
+
+2018-10-19 15:23:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IM' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:19 - [MESSAGE][PASSED] - All options with value 'IM' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:20 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933800861.png]]
+
+2018-10-19 15:23:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'MD' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:21 - [MESSAGE][PASSED] - All options with value 'MD' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:22 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933802723.png]]
+
+2018-10-19 15:23:23 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FW' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:23 - [MESSAGE][PASSED] - All options with value 'FW' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:24 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933804289.png]]
+
+2018-10-19 15:23:24 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CN' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:25 - [MESSAGE][PASSED] - All options with value 'CN' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:26 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933806090.png]]
+
+2018-10-19 15:23:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CL' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:26 - [MESSAGE][PASSED] - All options with value 'CL' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:27 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933807887.png]]
+
+2018-10-19 15:23:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:28 - [MESSAGE][PASSED] - All options with value '1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:29 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933809667.png]]
+
+2018-10-19 15:23:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'SP' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:30 - [MESSAGE][PASSED] - All options with value 'SP' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:31 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933811423.png]]
+
+2018-10-19 15:23:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PK' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:32 - [MESSAGE][PASSED] - All options with value 'PK' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:33 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933813322.png]]
+
+2018-10-19 15:23:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PT' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:34 - [MESSAGE][PASSED] - All options with value 'PT' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:35 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933815241.png]]
+
+2018-10-19 15:23:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PTL' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:36 - [MESSAGE][PASSED] - All options with value 'PTL' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:37 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933817194.png]]
+
+2018-10-19 15:23:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'JPJ1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:38 - [MESSAGE][PASSED] - All options with value 'JPJ1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:39 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933819403.png]]
+
+2018-10-19 15:23:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IMI1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:40 - [MESSAGE][PASSED] - All options with value 'IMI1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:41 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933821232.png]]
+
+2018-10-19 15:23:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ET' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:42 - [MESSAGE][PASSED] - All options with value 'ET' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:42 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933822979.png]]
+
+2018-10-19 15:23:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'manual' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select mode -     Man'  using regular expression
+
+2018-10-19 15:23:43 - [MESSAGE][PASSED] - All options with value 'manual' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select mode -     Man'  using regular expression
+
+2018-10-19 15:23:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:44 - [MESSAGE][PASSED] - All options with value 'LK' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:44 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933824699.png]]
+
+2018-10-19 15:23:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LKS' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:45 - [MESSAGE][PASSED] - All options with value 'LKS' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:46 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933826244.png]]
+
+2018-10-19 15:23:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'JM' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:47 - [MESSAGE][PASSED] - All options with value 'JM' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:47 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933827808.png]]
+
+2018-10-19 15:23:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IM' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:48 - [MESSAGE][PASSED] - All options with value 'IM' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:49 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933829557.png]]
+
+2018-10-19 15:23:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'MD' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:50 - [MESSAGE][PASSED] - All options with value 'MD' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:51 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933831103.png]]
+
+2018-10-19 15:23:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FW' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:52 - [MESSAGE][PASSED] - All options with value 'FW' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:52 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933832643.png]]
+
+2018-10-19 15:23:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CN' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:53 - [MESSAGE][PASSED] - All options with value 'CN' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:54 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933834306.png]]
+
+2018-10-19 15:23:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CL' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:55 - [MESSAGE][PASSED] - All options with value 'CL' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:55 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933835910.png]]
+
+2018-10-19 15:23:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:56 - [MESSAGE][PASSED] - All options with value '1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:57 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933837484.png]]
+
+2018-10-19 15:23:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'SP' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:58 - [MESSAGE][PASSED] - All options with value 'SP' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:23:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:23:59 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:23:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933839275.png]]
+
+2018-10-19 15:23:59 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PK' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:00 - [MESSAGE][PASSED] - All options with value 'PK' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:00 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:24:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933840899.png]]
+
+2018-10-19 15:24:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PT' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:01 - [MESSAGE][PASSED] - All options with value 'PT' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:02 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:24:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933842612.png]]
+
+2018-10-19 15:24:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PTL' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:03 - [MESSAGE][PASSED] - All options with value 'PTL' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:04 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:24:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933844322.png]]
+
+2018-10-19 15:24:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'JPJ1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:05 - [MESSAGE][PASSED] - All options with value 'JPJ1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:05 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:24:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933845924.png]]
+
+2018-10-19 15:24:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'IMI1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:06 - [MESSAGE][PASSED] - All options with value 'IMI1M' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:07 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:24:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933847518.png]]
+
+2018-10-19 15:24:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ET' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:08 - [MESSAGE][PASSED] - All options with value 'ET' are selected in object 'Object Repository/Page_MyEG Services  Verify Records/select_- Select Service -'  using regular expression
+
+2018-10-19 15:24:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/input' is clicked on
+
+2018-10-19 15:24:09 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:24:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933849179.png]]
+
+2018-10-19 15:24:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Verify Records/a_reset' is clicked on
+
+2018-10-19 15:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Verify Records/a_reset' is clicked on
+
+2018-10-19 15:24:09 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:24:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933849687.png]]
+
+2018-10-19 15:24:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MyEG Services  Insert title he/a_Logout' is clicked on
+
+2018-10-19 15:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MyEG Services  Insert title he/a_Logout' is clicked on
+
+2018-10-19 15:24:10 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-19 15:24:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Owner\\Katalon Studio\\Logistics\\Reports\\CSO_ADMIN_PrintIMM\\Verify Record\\20181019_152255\\1539933850344.png]]
+
+2018-10-19 15:24:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-19 15:24:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-19 15:22:57 - [TEST_SUITE][PASSED] - Verify Record: Test Cases/Logistics/Roles/CSOADMIN_PrintIMM/Verify Record]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
